@@ -1,18 +1,18 @@
 Valico-README
 
-Summary
+# Summary
 Manually corrected Treebank of Learner Italian drawn from the Valico corpus and correspondent corrected sentences.
 
-Introduction
+# Introduction
 
-UD Italian-Valico is a collection of 36 Italian as a Second Language (ISL) texts (398 sentences and 6,777 tokens), manually corrected in the Universal Dependencies formalism elicited from one comic strip. Each text is matched with a corrected version and both are annotated. The annotations follow the standard Italian UD guidelines, along with a set of supplementary guidelines for this particular treebank. The treebank represents English, French, German, and Spanish Italian learners, at three different year of study of Italian. There are 9 texts for each native language and three texts per year of study.
+UD Italian-Valico is a collection of 36 Italian as a Second Language texts (398 sentences and 6,777 tokens), in the Universal Dependencies formalism elicited from a comic strip. Each text is matched with a corrected version and both are automatically annotated and then manually corrected. The annotations follow the standard Italian UD guidelines, along with a set of supplementary guidelines for this particular treebank. The treebank represents English, French, German, and Spanish Italian learners, at three different year of study of Italian. There are 9 texts for each native language and three texts per year of study.
 
-The treebank is split randomly to a training set of 4,124 sentences, development set of 500 sentences and a test set of 500 sentences. (questo è ESL; facciamo come CFL e diciamo che è solo il test oppure testiamo sulle frasi di 100 frasi che sono in e out of domain -- amore e stazione, mentre 9x4l1 è solo amore)
+The treebank is realised as test set.
 
-Metadata
+# Metadata
 Cambiare sent_id con un id più informativo? sì, sicuramente evitare i nomi (id univoci)
 
-Citation
+# Citation
 
 You are encouraged to cite the following paper:
 
@@ -27,11 +27,11 @@ You are encouraged to cite the following paper:
 }
 
 <pre>
-=== Machine-readable metadata (DO NOT REMOVE!) ================================
+=== Machine-readable metadata ================================
 Data available since: UD v2.8
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: comic-strip elicited learner writings
+Genre: learner-essays
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
