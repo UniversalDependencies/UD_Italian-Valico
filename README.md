@@ -5,7 +5,7 @@ Manually corrected Treebank of Learner Italian drawn from the Valico corpus and 
 
 # Introduction
 
-UD Italian-Valico is a collection of 36 Italian as a Second Language texts (398 sentences and 6,777 tokens), in the Universal Dependencies formalism elicited from a comic strip. Each text is matched with a corrected version and both are automatically annotated and then manually corrected. The annotations follow the standard Italian UD guidelines, along with a set of supplementary guidelines for this particular treebank. The treebank represents English, French, German, and Spanish learners of Italian, at three different year of study. There are 9 texts for each native language and three texts per year of study.
+UD Italian-Valico is a collection of 36 Italian as a Second Language texts (398 sentences and 6,777 tokens), in the Universal Dependencies formalism elicited from a comic strip. Each text is matched with a corrected version (TH) and both are automatically annotated and then manually corrected. The annotations follow the standard Italian UD guidelines, along with a set of supplementary guidelines for this particular treebank. The treebank represents English, French, German, and Spanish learners of Italian at three different year of study. There are 9 texts for each native language and three texts per year of study.
 
 The treebank is realised as test set.
 
