@@ -9,6 +9,10 @@ UD Italian-Valico is a collection of 36 Italian as a Second Language texts (398 
 
 The treebank is realised as test set.
 
+# Acknowledgements
+
+The treebank development has also been possible thanks to the valuable comments of Dr. Elisa Corino (University of Turin) and Dr. Alessandro Mazzei (University of Turin).
+
 # Metadata
 Cambiare sent_id con un id più informativo? sì, sicuramente evitare i nomi (id univoci)
 
