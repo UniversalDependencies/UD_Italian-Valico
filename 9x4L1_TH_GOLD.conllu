@@ -233,8 +233,8 @@
 4	gli	gli	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	occhiali	occhiale	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	2	punct	_	_
-7	di	di	ADP	E	_	7	case	_	_
-8	scatto	scatto	NOUN	S	Gender=Masc|Number=Sing	17	advmod	_	LOC=adv|SpaceAfter=No
+7	di	di	ADP	E	_	8	case	_	_
+8	scatto	scatto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	LOC=adv|SpaceAfter=No
 9	,	,	PUNCT	FF	_	8	punct	_	_
 10	ascoltando	ascoltare	VERB	V	VerbForm=Ger	17	advcl	_	_
 11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -1809,7 +1809,7 @@
 95	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = 8-08_es-2
-# text = Li aveva cominciati a seguire fino alla fine del parco, dove aveva visto una mazza da baseball che era portata da un bambino felice; lui si è avvicinato al bambino e gli ha rubato la sua mazza; povero bambino piangeva molto, non si sapeva se piangeva una bambina o un bambino; subito dopo dietro all'uomo robusto, Giulio, con la mazza e aiutato da una forza terribile, lo ha colpito a tal punto che l'uomo è caduto a piombo sul pavimento, auuch!
+# text = Li aveva cominciati a seguire fino alla fine del parco, dove aveva visto una mazza da baseball che era portata da un bambino felice; lui si è avvicinato al bambino e gli ha rubato la sua mazza; povero bambino piangeva molto, non si sapeva se piangeva una bambina o un bambino; subito dopo dietro all'uomo robusto, Giulio, con la mazza e aiutato da una forza terribile, lo ha colpito a tal punto che l'uomo è caduto a piombo sul pavimento, ahi!
 # err = <RA><i>Gli</i><c>Li</c></RA> aveva <IVN><i>cominciato</i><c>cominciati</c></IVN> a seguire fino alla fine del parco<SPM><i>_</i><c>,</c></SPM> dove aveva visto <IDGcascade><FNL><i>un bat</i><c>un mazza</c></FNL><i>un mazza</i><c>una mazza</c></IDGcascade> <RT><i>di</i><c>da</c></RT> <SNT><i>base ball</i><c>baseball</c></SNT> <RA><IDGcascade><i>il quale</i><c>la quale</c></IDGcascade><i>la quale</i><c>che</c></RA> era <IVGcascade><i>portato</i><c>portata</c></IVGcascade> da un bambino felice<SPR><i>,</i><c>;</c></SPR> lui si è avvicinato al bambino e <RA><i>l'</i><c>gli </c></RA>ha rubato <IDGcascade><IDGcascade><FNL><i>il suo bat</i><c>il suo mazza</c></FNL><i>il suo mazza</i><c>la suo mazza</c></IDGcascade><i>la suo mazza</i><c>la sua mazza</c></IDGcascade><SPR><i>,</i><c>;</c></SPR> povero bambino <IV><SB><i>pianggiava</i><c>piangiava</c></SB><i>piangiava</i><c>piangeva</c></IV> molto, non si sapeva se <IV><SB><i>pianggiava</i><c>piangiava</c></SB><i>piangiava</i><c>piangeva</c></IV> una bambina o un bambino<SPR><i>,</i><c>;</c></SPR> subito dopo <RT><i>indietro</i><c>dietro</c></RT> <FD><i>al </i><c>all'</c></FD>uomo robusto<SPM><i>_</i><c>,</c></SPM> Giulio<SPM><i>_</i><c>,</c></SPM> con <IDGcascade><FNL><i>il bat</i><c>il mazza</c></FNL><i>il mazza</i><c>la mazza</c></IDGcascade> e aiutato da una forza terribile<SPM><i>_</i><c>,</c></SPM> <RA><i>gli</i><c>lo</c></RA> ha attaccato a tal punto che l'uomo <IVT><i>era caduto</i><c>è caduto</c></IVT> a piombo sul <RWP><i>suolo pavimentato</i><c>pavimento</c></RWP><SPM><i>_</i><c>,</c></SPM> <FJL><i>auuch</i><c>ahi</c></FJL>!
 1	Li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
 2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
@@ -2707,7 +2707,7 @@
 2	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	usciti	uscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-5-6	allo	_	_	_	_	_	_	_	SpaceAfter=No
+5-6	allo	_	_	_	_	_	_	_	_
 5	a	a	ADP	E	_	7	case	_	_
 6	lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	scoperto	scoperto	ADJ	A	Gender=Masc|Number=Sing	4	obl	_	LOC=adv
@@ -4065,7 +4065,7 @@
 6	CORTI	corto	ADJ	A	Gender=Masc|Number=Plur	4	conj	_	_
 7	E	e	CCONJ	CC	_	8	cc	_	_
 8	PORTAVA	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
-9	gli	gli	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	GLI	gli	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 10	OCCHIALI	occhiale	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
 
@@ -8447,11 +8447,11 @@
 # sent_id = 35-30_en-1
 # text = "Ma CHE?" ha risposto la donna.
 # err = "Ma CHE?" ha risposto la donna.
-1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
 2	Ma	ma	CCONJ	CC	_	3	cc	_	_
 3	CHE	che	DET	DQ	PronType=Int	7	parataxis	_	SpaceAfter=No
-4	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
-5	"	"	PUNCT	FB	_	2	punct	_	_
+4	?	?	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	7	punct	_	_
 6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
