@@ -1175,7 +1175,7 @@
 13	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14-15	derribarle	_	_	_	_	_	_	_	_
 14	derribar	derribare	VERB	V	VerbForm=Inf	4	conj	_	_
-15	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	14	dep	_	_
+15	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
 16	salvare	salvare	VERB	V	VerbForm=Inf	14	parataxis	_	_
 17	a	a	ADP	E	_	19	case	_	_
 18	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -2354,7 +2354,7 @@
 25	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
 
 # sent_id = 10-05_es-1
-# text = Al parco, non lo so per_chè, un ragazzo pazzo e bruto ha pichiatto al mio ragazzo...
+# text = Al parco, non lo so per chè, un ragazzo pazzo e bruto ha pichiatto al mio ragazzo...
 # err = Al parco, non lo so <SIR><SRT><i>per chè</i><c>perchè</c></SRT><i>perchè</i><c>perché</c></SIR>, un ragazzo pazzo e bruto ha <SB><i>pichiatto</i><c>picchiato</c></SB> <UT><i>al</i><c>il</c></UT> mio ragazzo...
 1-2	Al	_	_	_	_	_	_	_	_
 1	A	a	ADP	E	_	3	case	_	_
@@ -2776,7 +2776,7 @@
 9	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
 
 # sent_id = 12-01_es-1
-# text = ﻿Ieri al parco ha suceso un distrasto per_che una donna è andata al parco con il suo marito ma nel parco aveva una gelateria e hanno comprato un gelato ma la donna ci ha lasciato la sua borsa lì.
+# text = ﻿Ieri al parco ha suceso un distrasto per che una donna è andata al parco con il suo marito ma nel parco aveva una gelateria e hanno comprato un gelato ma la donna ci ha lasciato la sua borsa lì.
 # err = Ieri al parco <RX><i>ha</i><c>è</c></RX> <SB><i>suceso</i><c>successo</c></SB> un <SN><i>distrasto</i><c>disastro</c></SN> <SIM><SRT><i>per che</i><c>perche</c></SRT><i>perche</i><c>perché</c></SIM> una donna è andata al parco con <UD><i>il</i><c>_</c></UD> suo marito <RC><i>ma</i><c>e</c></RC> nel parco <RVL><i>aveva</i><c>c'era</c></RVL> una gelateria e hanno comprato un gelato ma la donna <UA><i>ci</i><c>_</c></UA> ha lasciato la sua borsa lì.
 1	﻿Ieri	﻿ieri	ADV	B	_	6	advmod	_	_
 2-3	al	_	_	_	_	_	_	_	_
@@ -2787,7 +2787,7 @@
 6	suceso	sucedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	distrasto	distrasto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
-9	per	perche	SCONJ	CS	_	13	mark	_	_
+9	per	perche	SCONJ	CS	_	14	mark	_	_
 10	che	_	X	X	_	9	goeswith	_	_
 11	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	donna	donna	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
@@ -2977,7 +2977,7 @@
 35	.	.	PUNCT	FS	_	34	punct	_	SpacesAfter=\n
 
 # sent_id = 12-05_es-1
-# text = È il suo marito ha deciso di cargarla, ma un ragazzo ha creduto que la ragazza era in un problema e la ha difenduto e ha colpito al suo marito e la ragazza si e arrabiata tanto con il ragazzo e li ha detto per_che aveva fatto quello e il ragazzo li ha detto que lui non sapeva e per quello l'ho aveva fatto.
+# text = È il suo marito ha deciso di cargarla, ma un ragazzo ha creduto que la ragazza era in un problema e la ha difenduto e ha colpito al suo marito e la ragazza si e arrabiata tanto con il ragazzo e li ha detto per che aveva fatto quello e il ragazzo li ha detto que lui non sapeva e per quello l'ho aveva fatto.
 # err = <SIU><i>È</i><c>E</c></SIU> <UD><i>il</i><c>_</c></UD> suo marito ha deciso di <MRcascade><FVL><i>cargarla</i><c>portarla</c></FVL><i>portarla</i><c>portarla di peso</c></MRcascade>, ma un ragazzo ha creduto <SAL><i>que</i><c>che</c></SAL> la ragazza <RV><IVM><i>era</i><c>fosse</c></IVM><i>fosse</i><c>avesse</c></RV> <UT><i>in</i><c>_</c></UT> un problema e la ha <IVG><IV><i>difenduto</i><c>difeso</c></IV><i>difeso</i><c>difesa</c></IVG> e ha colpito <UT><UD><i>al</i><c>a</c></UD><i>a</i><c>_</c></UT> suo marito e la ragazza si <SIM><i>e</i><c>è</c></SIM> <SB><i>arrabiata</i><c>arrabbiata</c></SB> tanto con il ragazzo e <RA><i>li</i><c>gli</c></RA> ha <RV><i>detto</i><c>chiesto</c></RV> <SIM><SRT><i>per che</i><c>perche</c></SRT><i>perche</i><c>perché</c></SIM> aveva fatto quello e il ragazzo <RA><i>li</i><c>le</c></RA> ha detto <SAL><i>que</i><c>che</c></SAL> lui non <MA><i>_</i><c>lo</c></MA> sapeva e per quello l'<UX><i>ho </i><c>_</c></UX>aveva fatto.
 1	È	e	CCONJ	CC	_	6	cc	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3028,7 +3028,7 @@
 45	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	47	obj	_	_
 46	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	_
 47	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	conj	_	_
-48	per	perche	ADV	B	_	50	advmod	_	_
+48	per	perche	ADV	B	_	51	advmod	_	_
 49	che	_	X	X	_	48	goeswith	_	_
 50	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	51	aux	_	_
 51	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	47	ccomp	_	_
@@ -5404,7 +5404,7 @@
 8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 26-10_de-1
-# text = Ma quando la ragazza ha visto il suo raggazzo co_si, era desperata.
+# text = Ma quando la ragazza ha visto il suo raggazzo co si, era desperata.
 # err = Ma quando la ragazza ha visto il suo <SB><i>raggazzo</i><c>ragazzo</c></SB> <SIM><SRT><i>co si</i><c>cosi</c></SRT><i>cosi</i><c>così</c></SIM>, era <SJ><i>desperata</i><c>disperata</c></SJ>.
 1	Ma	ma	CCONJ	CC	_	14	cc	_	_
 2	quando	quando	SCONJ	CS	_	6	mark	_	_
@@ -8410,11 +8410,11 @@
 # sent_id = 35-30_en-1
 # text = «Ma CHE?» ha risposto la donna.
 # err = "Ma CHE?" ha risposto la donna.
-1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+1	«	«	PUNCT	FB	_	7	punct	_	SpaceAfter=No
 2	Ma	ma	CCONJ	CC	_	3	cc	_	_
 3	CHE	che	DET	DQ	PronType=Int	7	parataxis	_	SpaceAfter=No
-4	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
-5	»	»	PUNCT	FB	_	3	punct	_	_
+4	?	?	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+5	»	»	PUNCT	FB	_	7	punct	_	_
 6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
