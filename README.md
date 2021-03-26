@@ -10,9 +10,13 @@ UD Italian-Valico is a collection of 36 Italian as a Second Language texts (398 
 The treebank is realised as test set. 
 
 Each sentence id is structured as a-bb_xx-c, where:
+
 	a is the number of the text (from 1 to 36);
+
 	bb is the number of the sentence in the text;
+
 	xx is the ISO code for the learner's native language;
+	
 	c is the learner's year of study of Italian.
 
 For example:
