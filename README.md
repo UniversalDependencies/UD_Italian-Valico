@@ -44,7 +44,7 @@ You are encouraged to cite the following paper:
 }
 
 <pre>
-=== Machine-readable metadata ================================
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.8
 License: CC BY-SA 4.0
 Includes text: yes
@@ -55,7 +55,7 @@ XPOS: manual native
 Features: manual native
 Relations: manual native
 Contributors: Di Nuovo, Elisa; Sanguinetti, Manuela; Bosco, Cristina
-Contributing: elsewhere
+Contributing: here
 Contact: elisa.dinuovo@unito.it
 ===============================================================================
 </pre>
