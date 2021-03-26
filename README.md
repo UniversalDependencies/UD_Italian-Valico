@@ -5,16 +5,25 @@ Manually corrected Treebank of Learner Italian drawn from the Valico corpus and 
 
 # Introduction
 
-UD Italian-Valico is a collection of 36 Italian as a Second Language texts (398 sentences and 6,777 tokens), in the Universal Dependencies formalism elicited from a comic strip. Each text is matched with a corrected version (TH) and both are automatically annotated and then manually corrected. The annotations follow the standard Italian UD guidelines, along with a set of supplementary guidelines for this particular treebank. The treebank represents English, French, German, and Spanish learners of Italian at three different year of study. There are 9 texts for each native language and three texts per year of study.
+UD Italian-Valico is a collection of 36 Italian as a Second Language texts (398 sentences and 6,777 tokens), in the Universal Dependencies formalism elicited from a comic strip. Each text is matched with a corrected version (TH) and both are automatically annotated and then manually corrected. The annotations follow the standard Italian UD guidelines, along with a set of supplementary guidelines for this particular treebank. The treebank represents English, French, German, and Spanish learners of Italian at three different levels (expressed in year of study). There are 9 texts for each native language and three texts per level.
 
-The treebank is realised as test set.
+The treebank is realised as test set. 
+
+Each sentence id is structured as a-bb_xx-c, where:
+	a is the number of the text (from 1 to 36);
+	bb is the number of the sentence in the text;
+	xx is the ISO code for the learner's native language;
+	c is the learner's year of study of Italian.
+
+For example:
+
+1-01_fr-3 indicates the 1st sentence of the 1st text of the treebank which is written by a French learner at their 3rd year of study; and
+
+35-27_en-1 indicates the 27th sentence of the 35th text of the treebank which is written by a English learner at their 1st year of study.
 
 # Acknowledgements
 
 The treebank development has also been possible thanks to the valuable comments of Dr. Elisa Corino (University of Turin) and Dr. Alessandro Mazzei (University of Turin).
-
-# Metadata
-Cambiare sent_id con un id più informativo? sì, sicuramente evitare i nomi (id univoci)
 
 # Citation
 
@@ -36,11 +45,11 @@ Data available since: UD v2.8
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: learner-essays
-Lemmas: converted from manual
-UPOS: converted from manual
+Lemmas: manual native
+UPOS: manual native
 XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
+Features: manual native
+Relations: manual native
 Contributors: Di Nuovo, Elisa; Sanguinetti, Manuela; Bosco, Cristina
 Contributing: elsewhere
 Contact: elisa.dinuovo@unito.it
