@@ -16,7 +16,7 @@ Each sentence id is structured as a-bb_xx-c, where:
 	bb is the number of the sentence in the text;
 
 	xx is the ISO code for the learner's native language;
-	
+
 	c is the learner's year of study of Italian.
 
 For example:
@@ -27,7 +27,7 @@ For example:
 
 # Acknowledgements
 
-The treebank development has also been possible thanks to the valuable comments of Dr. Elisa Corino (University of Turin) and Dr. Alessandro Mazzei (University of Turin).
+The treebank development has also been possible thanks to Dr. Elisa Corino's (University of Turin) and Dr. Alessandro Mazzei's (University of Turin) valuable advice.
 
 # Citation
 
