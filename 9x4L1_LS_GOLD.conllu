@@ -212,7 +212,7 @@
 39	sue	suo	DET	AP	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	40	det:poss	_	_
 40	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	_
 41	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	dona	donna	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+42	dona	dona	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
 43	bionda	biondo	ADJ	A	Gender=Fem|Number=Sing	42	amod	_	_
 44	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
 45	grudava	grudare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	acl:relcl	_	_
@@ -2097,7 +2097,7 @@
 8	caricando	caricare	VERB	V	VerbForm=Ger	6	acl	_	_
 9	in	in	ADP	E	_	10	case	_	_
 10	modo	modo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
-11	agressivo	aggressivo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+11	agressivo	agressivo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
 12	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	donna	donna	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
 14	che	che	PRON	PR	PronType=Rel	16	obj	_	_
