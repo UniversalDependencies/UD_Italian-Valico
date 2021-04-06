@@ -659,7 +659,7 @@
 6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
 7	sembrò	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	più	più	ADV	B	_	9	advmod	_	_
-9	verde	verde	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	verde	verde	ADJ	A	Number=Sing	7	xcomp	_	SpaceAfter=No
 10	,	,	PUNCT	FF	_	7	punct	_	_
 11	i	i	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
