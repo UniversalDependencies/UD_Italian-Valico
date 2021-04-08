@@ -27,7 +27,7 @@ For example:
 
 # Acknowledgements
 
-The treebank development has also been possible thanks to Dr. Elisa Corino's (University of Turin) and Dr. Alessandro Mazzei's (University of Turin) valuable advice.
+The treebank development has also been possible thanks to Prof. Elisa Corino's (Dipartimento di Lingue e Letterature Straniere e Culture Moderne, University of Turin) valuable advice.
 
 # Citation
 
@@ -43,6 +43,17 @@ You are encouraged to cite the following paper:
   organization={CEUR-WS}
 }
 
+Other references:
+
+@inproceedings{dinuovo2020humanNLI,
+  title={How good are humans at Native Language Identification? A case study on Italian L2 writings},
+  author={Di Nuovo, Elisa and Bosco, Cristina and Corino, Elisa},
+  booktitle={CLiC-it 2020 Italian Conference on Computational Linguistics 2020},
+  pages={1--7},
+  year={2020},
+  organization={CEUR}
+}
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.8
@@ -54,8 +65,8 @@ UPOS: manual native
 XPOS: manual native
 Features: manual native
 Relations: manual native
-Contributors: Di Nuovo, Elisa; Sanguinetti, Manuela; Bosco, Cristina
-Contributing: here
+Contributors: Di Nuovo, Elisa; Sanguinetti, Manuela; Bosco, Cristina; Mazzei, Alessandro
+Contributing: elsewhere
 Contact: elisa.dinuovo@unito.it
 ===============================================================================
 </pre>
