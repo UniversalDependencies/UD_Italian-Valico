@@ -455,7 +455,7 @@
 
 # sent_id = 3-04_fr-3
 # text = Avevo sentito delle parole forte, una donna sta gridando et un uomo la portava con lui brutalmente.
-# err = Avevo sentito delle <RWP><IJN><i>parole forte</i><c>parole forti</c></IJN><i>parole forti</i><c>urla</c></RWP>, una donna <IVT><i>sta</i><c>stava</c></IVT> gridando <FCL><i>et</i><c>e</c></FCL> un uomo la portava con <RA><i>lui</i><c>sé</c></RA> brutalmente.
+# err = Avevo sentito delle <RWP><UJG><i>parole forte</i><c>parole forti</c></UJG><i>parole forti</i><c>urla</c></RWP>, una donna <IVT><i>sta</i><c>stava</c></IVT> gridando <FCL><i>et</i><c>e</c></FCL> un uomo la portava con <RA><i>lui</i><c>sé</c></RA> brutalmente.
 1	Avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
 2	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 3	delle	delle	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
@@ -660,7 +660,7 @@
 14	aperte	aperto	ADJ	A	Gender=Fem|Number=Plur	12	orphan	_	SpaceAfter=No
 15	,	,	PUNCT	FF	_	7	punct	_	_
 16	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
-17	uccele	uccelo	NOUN	S	Gender=Fem|Number=Plur	18	nsubj	_	_
+17	uccele	uccela	NOUN	S	Gender=Fem|Number=Plur	18	nsubj	_	_
 18	cantarono	cantare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
 19	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
 
@@ -688,7 +688,7 @@
 19	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	po	po	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	LOC=adv
 21	unamora	unamora	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	_
-22	ta	_	X	X	_	21	goeswith	_	_
+22	ta	_	X	_	_	21	goeswith	_	_
 23-24	del	_	_	_	_	_	_	_	_
 23	di	di	ADP	E	_	26	case	_	_
 24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -1192,7 +1192,7 @@
 5	a	a	ADP	E	_	6	mark	_	_
 6	gridare	gridare	VERB	V	VerbForm=Inf	4	xcomp	_	_
 7	e	e	CCONJ	CC	_	10	cc	_	_
-8	Io	Io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
 10	sapiava	sapiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
 11	perchè	perchè	NOUN	S	Gender=Masc	10	obj	_	SpaceAfter=No
@@ -1803,7 +1803,7 @@
 17	bat	bat	NOUN	S	Gender=Masc|Number=Sing|Foreign=Yes	15	obj	_	_
 18	di	di	ADP	E	_	19	case	_	_
 19	base	baseball	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
-20	ball	_	X	X	_	19	goeswith	_	_
+20	ball	_	X	_	_	19	goeswith	_	_
 21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	quale	quale	PRON	PR	Number=Sing|PronType=Rel	24	nsubj:pass	_	_
 23	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux:pass	_	_
@@ -2365,7 +2365,7 @@
 6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
 7	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	advcl	_	_
 8	per	perchè	NOUN	S	Gender=Masc	7	obj	_	_
-9	chè	_	X	X	_	8	goeswith	_	SpaceAfter=No
+9	chè	_	X	_	_	8	goeswith	_	SpaceAfter=No
 10	,	,	PUNCT	FF	_	7	punct	_	_
 11	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
@@ -2788,7 +2788,7 @@
 7	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	distrasto	distrasto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
 9	per	perche	SCONJ	CS	_	14	mark	_	_
-10	che	_	X	X	_	9	goeswith	_	_
+10	che	_	X	_	_	9	goeswith	_	_
 11	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	donna	donna	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
 13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
@@ -3029,7 +3029,7 @@
 46	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	_
 47	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	conj	_	_
 48	per	perche	ADV	B	_	51	advmod	_	_
-49	che	_	X	X	_	48	goeswith	_	_
+49	che	_	X	_	_	48	goeswith	_	_
 50	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	51	aux	_	_
 51	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	47	ccomp	_	_
 52	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	51	obj	_	_
@@ -4801,7 +4801,7 @@
 # err = <RV><SIU><i>Stà</i><c>Sta</c></SIU><i>Sta</i><c>È</c></RV> furiosa <STL><i>contra</i><c>contro</c></STL> il ragazzo che non comprende quello che <IVT><FVL><i>pasò</i><c>successe</c></FVL><i>successe</i><c>è successo</c></IVT>.
 1	Stà	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	furiosa	furioso	ADJ	A	Gender=Fem|Number=Sing	1	xcomp	_	_
-3	contra	contra	ADP	E	_	5	case	_	_
+3	contra	contra	ADP	E	Foreign=Yes	5	case	_	_
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
 6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
@@ -4819,7 +4819,7 @@
 2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
 3	solo	solo	ADV	B	_	6	advmod	_	_
 4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-5	viuto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
+5	viuto	viere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
 6-7	salvarla	_	_	_	_	_	_	_	SpaceAfter=No
 6	salvar	salvare	VERB	V	VerbForm=Inf	0	root	_	_
 7	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
@@ -5146,7 +5146,7 @@
 9-10	sull	_	_	_	_	_	_	_	_
 9	su	su	ADP	E	_	11	case	_	_
 10	l	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	X	X	NOUN	S	_	6	obl	_	SpaceAfter=No
+11	X	_	NOUN	S	_	6	obl	_	SpaceAfter=No
 12	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
 
 # sent_id = 25-03_fr-1
@@ -5416,7 +5416,7 @@
 8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	raggazzo	raggazzo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
 10	co	così	ADV	B	_	6	advmod	_	_
-11	si	_	X	X	_	10	goeswith	_	SpaceAfter=No
+11	si	_	X	_	_	10	goeswith	_	SpaceAfter=No
 12	,	,	PUNCT	FF	_	6	punct	_	_
 13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
 14	desperata	desperato	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
@@ -8611,7 +8611,7 @@
 4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
 5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
 6	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-7	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	SpaceAfter=No
+7	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 8	solo	solo	ADV	B	_	9	advmod	_	_
 9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	orphan	_	SpaceAfter=No
 10	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
