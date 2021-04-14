@@ -1113,7 +1113,7 @@
 17	amore	amore	NOUN	S	Gender=Masc|Number=Sing	12	parataxis	_	SpaceAfter=No
 18	!	!	PUNCT	FS	_	17	punct	_	_
 19	Che	che	DET	DQ	PronType=Int	22	obj	_	_
-20	l'	_	PRON	PC	Clitic=Yes|PronType=Prs	22	dep	_	SpaceAfter=No
+20	l'	_	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	22	iobj	_	SpaceAfter=No
 21	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
 22	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	parataxis	_	SpaceAfter=No
 23	,	,	PUNCT	FF	_	22	punct	_	_
@@ -3843,7 +3843,7 @@
 11	alzato	alzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	SpaceAfter=No
 12	,	,	PUNCT	FF	_	16	punct	_	_
 13	e	e	CCONJ	CC	_	16	cc	_	_
-14	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	dep	_	_
+14	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
 15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	seguito	seguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	SpaceAfter=No
 17	;	;	PUNCT	FC	_	16	punct	_	_
