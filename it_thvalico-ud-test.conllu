@@ -1608,7 +1608,7 @@
 # sent_id = 8-04_es-2
 # text = Va bene continuerò, è stato sufficiente scrivere del carattere di questo ragazzo che alla fine non fa un'altra cosa che leggere il giornale in cerca di lavoro; proprio stupido, chi cerca lavoro di questi tempi?
 # err = Va bene continuerò, è stato sufficiente <UT><i>di</i><c>_</c></UT> scrivire <RT><i>sul</i><c>del</c></RT> carattere di questo ragazzo che alla fine non fa un'altra cosa che <SV><i>lggere</i><c>leggere</c></SV> il giornale in cerca di lavoro<SPR><i>,</i><c>;</c></SPR> proprio stupido, chi cerca lavoro <RT><i>in</i><c>di</c></RT> questi tempi?
-1	Va	andare	INTJ	I	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	discourse	_	_
+1	Va	andare	INTJ	I	_	3	discourse	_	_
 2	bene	bene	INTJ	I	_	1	fixed	_	_
 3	continuerò	continuare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	3	punct	_	_
@@ -1898,8 +1898,8 @@
 81	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	82	aux	_	_
 82	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
 83	a	a	SCONJ	CS	_	90	mark	_	_
-84	tal	tale	SCONJ	CS	Number=Sing|PronType=Dem	83	fixed	_	_
-85	punto	punto	SCONJ	CS	Gender=Masc|Number=Sing	83	fixed	_	_
+84	tal	tale	SCONJ	CS	_	83	fixed	_	_
+85	punto	punto	SCONJ	CS	_	83	fixed	_	_
 86	che	che	SCONJ	CS	_	83	fixed	_	_
 87	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	88	det	_	SpaceAfter=No
 88	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	90	nsubj	_	_
@@ -2413,8 +2413,8 @@
 # sent_id = 10-06_es-1
 # text = Mamma mia, gente pazza!
 # err = <SOS><SB><i>mama</i><c>mamma</c></SB><i>mamma</i><c>Mamma</c></SOS> mia, gente pazza!
-1	Mamma	mamma	INTJ	I	Gender=Fem|Number=Sing	4	discourse	_	_
-2	mia	mio	INTJ	I	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	1	fixed	_	SpaceAfter=No
+1	Mamma	mamma	INTJ	I	_	4	discourse	_	_
+2	mia	mio	INTJ	I	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	FF	_	4	punct	_	_
 4	gente	gente	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
 5	pazza	pazzo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
@@ -4598,7 +4598,7 @@
 # sent_id = 21-05_en-2
 # text = Non appena l'ha lasciata, l'ho colpito nella faccia e l'ho buttato al suolo.
 # err = Non appena <MA><i>ha</i><c>l'ha</c></MA> <IVG><i>lasciato</i><c>lasciata</c></IVG> <IVM><i>va</i><c>andare</c></IVM><SPM><i>_</i><c>,</c></SPM> l'ho <RV><i>perforato</i><c>colpito</c></RV> nella faccia e l'<IVP><i>ha</i><c>ho</c></IVP> <RV><i>bussato</i><c>buttato</c></RV> al suolo.
-1	Non	non	SCONJ	CS	PronType=Neg	5	mark	_	_
+1	Non	non	SCONJ	CS	_	5	mark	_	_
 2	appena	appena	SCONJ	CS	_	1	fixed	_	_
 3	l'	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
 4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -5715,7 +5715,7 @@
 5	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
 6	lunghi	lungo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
 7	e	e	CCONJ	CC	_	8	cc	_	_
-8	biondi	biondo	ADJ	A	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	conj	_	_
+8	biondi	biondo	ADJ	A	Gender=Masc|Number=Plur	6	conj	_	_
 9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
 10	guardò	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 11	e	e	CCONJ	CC	_	12	cc	_	_
