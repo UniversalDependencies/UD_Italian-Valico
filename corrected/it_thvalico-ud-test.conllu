@@ -7492,8 +7492,8 @@
 15	speciale	speciale	ADJ	A	Number=Sing	14	amod	_	_
 16	oggi	oggi	ADV	B	_	14	advmod	_	SpaceAfter=No
 17	.	.	PUNCT	FS	_	12	punct	_	_
-18	Carpe	Carpe	VERB	V	Foreign=Yes	12	parataxis	_	_
-19	diem	diem	NOUN	S	Foreign=Yes	18	obj	_	SpaceAfter=No
+18	Carpe	Carpe	VERB	V	_	12	parataxis	_	Foreign=Yes
+19	diem	diem	NOUN	S	_	18	obj	_	Foreign=Yes|SpaceAfter=No
 20	!	!	PUNCT	FS	_	18	punct	_	SpaceAfter=No
 21	»	»	PUNCT	FB	_	12	punct	_	SpacesAfter=\n
 
