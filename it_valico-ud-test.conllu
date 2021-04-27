@@ -577,7 +577,7 @@
 21	sogna	sogna	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
 22	di	di	ADP	E	_	24	case	_	_
 23	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	prince	prince	NOUN	S	Gender=Fem|Number=Sing|Foreign=Yes	21	obl	_	_
+24	prince	prince	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	21	obl	_	_
 25	gentile	gentile	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
 26	!	!	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
 
@@ -711,7 +711,7 @@
 8	in	in	ADP	E	_	10	case	_	_
 9	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
-11	lo	lo	DET	RD	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	det	_	_
+11	lo	lo	DET	RD	Gender=Masc|Number=Sing	13	det	_	_
 12	più	più	ADV	B	_	13	advmod	_	_
 13	vuoto	vuoto	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
 14-15	del	_	_	_	_	_	_	_	_
@@ -1153,7 +1153,7 @@
 6	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 7	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
 8-9	rescatarla	_	_	_	_	_	_	_	SpaceAfter=No
-8	rescatar	rescatar	VERB	V	VerbForm=Inf|Foreign=Yes	7	xcomp	_	_
+8	rescatar	rescatar	VERB	V	Foreign=Yes|VerbForm=Inf	7	xcomp	_	_
 9	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
 10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
 
@@ -1174,7 +1174,7 @@
 12	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 13	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14-15	derribarle	_	_	_	_	_	_	_	_
-14	derribar	derribar	VERB	V	VerbForm=Inf|Foreign=Yes	4	conj	_	_
+14	derribar	derribar	VERB	V	Foreign=Yes|VerbForm=Inf	4	conj	_	_
 15	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
 16	salvare	salvare	VERB	V	VerbForm=Inf	14	parataxis	_	_
 17	a	a	ADP	E	_	19	case	_	_
@@ -1631,7 +1631,7 @@
 # text = È obvio che non c'è...
 # err = È <SJ><i>obvio</i><c>ovvio</c></SJ> che non c'è...
 1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
-2	obvio	obvio	ADJ	A	Gender=Masc|Number=Sing|Foreign=Yes	0	root	_	_
+2	obvio	obvio	ADJ	A	Foreign=Yes|Gender=Masc|Number=Sing	0	root	_	_
 3	che	che	SCONJ	CS	_	6	mark	_	_
 4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
 5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
@@ -1731,7 +1731,7 @@
 47	niente	niente	PRON	PI	PronType=Ind	46	obj	_	_
 48	di	di	ADP	E	_	49	case	_	_
 49	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	47	nmod	_	_
-50	que	que	PRON	PR	PronType=Rel|Foreign=Yes	51	nsubj	_	_
+50	que	que	PRON	PR	Foreign=Yes|PronType=Rel	51	nsubj	_	_
 51	gridava	gridare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
 52	,	,	PUNCT	FF	_	51	punct	_	_
 53	muoveva	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	conj	_	_
@@ -1800,7 +1800,7 @@
 14	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
 15	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
 16	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	bat	bat	NOUN	S	Gender=Masc|Number=Sing|Foreign=Yes	15	obj	_	_
+17	bat	bat	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	15	obj	_	_
 18	di	di	ADP	E	_	19	case	_	_
 19	base	baseball	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
 20	ball	_	X	_	_	19	goeswith	_	_
@@ -1827,7 +1827,7 @@
 40	rubato	rubare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
 41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 42	suo	suo	DET	AP	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	43	det:poss	_	_
-43	bat	bat	NOUN	S	Gender=Masc|Number=Sing|Foreign=Yes	40	obj	_	SpaceAfter=No
+43	bat	bat	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	40	obj	_	SpaceAfter=No
 44	,	,	PUNCT	FF	_	47	punct	_	_
 45	povero	povero	ADJ	A	Gender=Masc|Number=Sing	46	amod	_	_
 46	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	47	vocative	_	_
@@ -1856,7 +1856,7 @@
 68	Giulio	Giulio	PROPN	SP	_	80	nsubj	_	_
 69	con	con	ADP	E	_	71	case	_	_
 70	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	71	det	_	_
-71	bat	bat	NOUN	S	Gender=Masc|Number=Sing|Foreign=Yes	68	nmod	_	_
+71	bat	bat	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	68	nmod	_	_
 72	e	e	CCONJ	CC	_	73	cc	_	_
 73	aiutato	aiutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	71	conj	_	_
 74	da	da	ADP	E	_	76	case	_	_
@@ -2513,7 +2513,7 @@
 21	abbiamo	avere	AUX	VA	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
 22	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
 23	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	festejo	festejo	NOUN	S	Gender=Masc|Number=Sing|Foreign=Yes	22	obj	_	_
+24	festejo	festejo	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	22	obj	_	_
 25	de	de	ADP	E	Foreign=Yes	26	case	_	_
 26	benvenuta	benvenuta	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
@@ -2706,7 +2706,7 @@
 # text = MI he alzato e le detto al uomo de lasciarla perchè le faceva danno.
 # err = <SAS><i>MI</i><c>Mi</c></SAS> <FXL><i>he</i><c>sono</c></FXL> alzato e <FAL><i>le</i><c>gli</c></FAL> <MX><i>_</i><c>ho</c></MX> detto <UW><FD><i>al uomo</i><c>all'uomo</c></FD><i>all'uomo</i><c>_</c></UW> <FTL><i>de</i><c>di</c></FTL> lasciarla <SIR><i>perchè</i><c>perché</c></SIR> le faceva <RN><i>danno</i><c>male</c></RN>.
 1	MI	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
-2	he	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Foreign=Yes	3	aux	_	_
+2	he	avere	AUX	VA	Foreign=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	alzato	alzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	e	e	CCONJ	CC	_	6	cc	_	_
 5	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
@@ -2987,7 +2987,7 @@
 6	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	di	di	ADP	E	_	8	mark	_	_
 8-9	cargarla	_	_	_	_	_	_	_	SpaceAfter=No
-8	cargar	cargare	VERB	V	VerbForm=Inf|Foreign=Yes	6	xcomp	_	_
+8	cargar	cargare	VERB	V	Foreign=Yes|VerbForm=Inf	6	xcomp	_	_
 9	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
 10	,	,	PUNCT	FF	_	15	punct	_	_
 11	ma	ma	CCONJ	CC	_	15	cc	_	_
@@ -3211,7 +3211,7 @@
 43-44	del	_	_	_	_	_	_	_	_
 43	di	di	ADP	E	_	45	case	_	_
 44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-45	relato	relato	NOUN	S	Gender=Masc|Number=Sing|Foreign=Yes	42	nmod	_	_
+45	relato	relato	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	42	nmod	_	_
 46	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	47	aux	_	_
 47	descrivere	descrivere	VERB	V	VerbForm=Inf	11	parataxis	_	_
 48	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	47	obj	_	_
@@ -4819,7 +4819,7 @@
 2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
 3	solo	solo	ADV	B	_	6	advmod	_	_
 4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-5	viuto	viere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
+5	viuto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
 6-7	salvarla	_	_	_	_	_	_	_	SpaceAfter=No
 6	salvar	salvare	VERB	V	VerbForm=Inf	0	root	_	_
 7	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
