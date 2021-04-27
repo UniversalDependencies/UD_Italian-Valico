@@ -711,7 +711,7 @@
 8	in	in	ADP	E	_	10	case	_	_
 9	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
-11	lo	lo	DET	RD	Gender=Masc|Number=Sing	13	det	_	_
+11	lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 12	più	più	ADV	B	_	13	advmod	_	_
 13	vuoto	vuoto	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
 14-15	del	_	_	_	_	_	_	_	_
