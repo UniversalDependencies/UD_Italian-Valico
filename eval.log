@@ -1,0 +1,40 @@
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Thu May 6 20:16:19 2021 +0200
+Evaluating the following revision of UD_Italian-Valico:
+commit 7c098636423aab931ebca7624b9df52b835ec05a
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed May 12 21:01:42 2021 +0200
+Size: counted 6784 of 6784 words (nodes).
+Size: min(0, log((N/1000)**2)) = 3.8291337969792.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 4533 out of 6784 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 32 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi:
+               TOTAL         19
+Udapi: found 19 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 6784 words.
+Genres: found 1 out of 17 known.
+validate.py --lang it --max-err=10 UD_Italian-Valico/it_valico-ud-test.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
+(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0.277161946416219) = 0.0710671657477485
+(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
+(weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
+(weight=0.307692307692308) * (score{udapi}=0.971992924528302) = 0.299074746008708
+(weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
+(TOTAL score=0.667952029566575) * (availability=1) * (validity=1) = 0.667952029566575
+STARS = 3.5
+UD_Italian-Valico	0.667952029566575	3.5
