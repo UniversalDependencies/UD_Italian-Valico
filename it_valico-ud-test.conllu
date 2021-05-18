@@ -7020,7 +7020,7 @@
 # err = "<IVP><i>Mi scusi</i><c>Scusami</c></IVP>, <IVT><i>era</i><c>è</c></IVT> <UDcascade><i>la</i><c>_</c></UDcascade> <WD><i>mia colpa</i><c>colpa mia</c></WD>" ha detto Luca, molto deluso <RT><i>di</i><c>per</c></RT> non aver aiutato la ragazza.
 1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
 2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
-3	scusi	scusare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
+3	scusi	scusare	VERB	V	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	3	punct	_	_
 5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
 6	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -7678,7 +7678,7 @@
 57	.	.	PUNCT	FS	_	52	punct	_	_
 58	Se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	60	expl	_	_
 59	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	60	expl	_	_
-60	vada	andare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	parataxis	_	SpaceAfter=No
+60	vada	andare	VERB	V	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	parataxis	_	SpaceAfter=No
 61	!	!	PUNCT	FS	_	60	punct	_	SpaceAfter=No
 62	»	»	PUNCT	FB	_	3	punct	_	SpacesAfter=\n
 
@@ -7809,10 +7809,10 @@
 4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	«	«	PUNCT	FB	_	7	punct	_	_
 6	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	expl	_	_
-7	scusi	scusare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+7	scusi	scusare	VERB	V	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
 8	,	,	PUNCT	FF	_	10	punct	_	_
 9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
-10	scusi	scusare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
+10	scusi	scusare	VERB	V	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
 11	.	.	PUNCT	FS	_	7	punct	_	_
 12	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 13	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
