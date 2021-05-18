@@ -1575,7 +1575,7 @@
 1	Se	se	SCONJ	CS	_	4	mark	_	_
 2	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
-4	aveste	avere	VERB	V	Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+4	aveste	avere	VERB	V	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	advcl	_	_
 5	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	opportunità	opportunità	NOUN	S	Gender=Fem	4	obj	_	_
 7	di	di	ADP	E	_	8	mark	_	_
@@ -7713,7 +7713,7 @@
 57	.	.	PUNCT	FS	_	52	punct	_	_
 58	Se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	60	expl	_	_
 59	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	60	expl	_	_
-60	vada	andare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+60	vada	andare	VERB	V	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
 61	!	!	PUNCT	FS	_	60	punct	_	SpaceAfter=No
 62	»	»	PUNCT	FB	_	3	punct	_	SpacesAfter=\n
 
