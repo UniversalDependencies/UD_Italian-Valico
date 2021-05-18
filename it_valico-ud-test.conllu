@@ -2510,7 +2510,7 @@
 18	per	per	ADP	E	_	19	case	_	_
 19	vancanze	vancanza	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
 20	e	e	CCONJ	CC	_	22	cc	_	_
-21	abbiamo	avere	AUX	VA	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
 22	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
 23	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	festejo	festejo	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	Foreign=Yes
@@ -5617,13 +5617,13 @@
 7	donne	donna	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
 8	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
 9	»	»	PUNCT	FB	_	2	punct	_	_
-10	Pensa	pensare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	Pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
 13	giovane	giovane	ADJ	A	Number=Sing	12	amod	_	_
 14	e	e	CCONJ	CC	_	16	cc	_	_
 15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
-16	accomoda	accomodare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+16	accomoda	accomodare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 17-18	sul	_	_	_	_	_	_	_	_
 17	su	su	ADP	E	_	19	case	_	_
 18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -7020,7 +7020,7 @@
 # err = "<IVP><i>Mi scusi</i><c>Scusami</c></IVP>, <IVT><i>era</i><c>è</c></IVT> <UDcascade><i>la</i><c>_</c></UDcascade> <WD><i>mia colpa</i><c>colpa mia</c></WD>" ha detto Luca, molto deluso <RT><i>di</i><c>per</c></RT> non aver aiutato la ragazza.
 1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
 2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
-3	scusi	scusare	VERB	V	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
+3	scusi	scusare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	3	punct	_	_
 5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
 6	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -7809,10 +7809,10 @@
 4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	«	«	PUNCT	FB	_	7	punct	_	_
 6	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	expl	_	_
-7	scusi	scusare	VERB	V	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+7	scusi	scusare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
 8	,	,	PUNCT	FF	_	10	punct	_	_
 9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
-10	scusi	scusare	VERB	V	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
+10	scusi	scusare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
 11	.	.	PUNCT	FS	_	7	punct	_	_
 12	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 13	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
