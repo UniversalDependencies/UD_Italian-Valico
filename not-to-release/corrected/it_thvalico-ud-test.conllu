@@ -1454,11 +1454,11 @@
 11	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
 12	tutti	tutto	DET	DI	PronType=Ind	14	det:predet	_	_
 13	i	i	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-14	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+14	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
 15-16	al	_	_	_	_	_	_	_	_
 15	a	a	ADP	E	_	17	case	_	_
 16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
 18	leggeva	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
 19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
