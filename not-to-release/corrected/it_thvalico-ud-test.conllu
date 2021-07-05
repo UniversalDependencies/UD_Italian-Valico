@@ -56,7 +56,7 @@
 # sent_id = 1-03_fr-3
 # text = Porta degli occhiali.
 # err = <SVS><i>porta</i><c>Porta</c></SVS> degli occhiali.
-1	Porta	portare	VERB	V	_	0	root	_	_
+1	Porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	degli	degli	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	occhiali	occhiale	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
 4	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
@@ -192,9 +192,9 @@
 20	,	,	PUNCT	FF	_	17	punct	_	_
 21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 22	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
-23	passare	passare	VERB	V	VerbForm=Inf	22	ccomp	_	_
+23	passare	passare	VERB	V	VerbForm=Inf	22	xcomp	_	_
 24	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+25	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
 26	fortissimo	forte	ADJ	A	Degree=Abs|Number=Sing	25	amod	_	SpaceAfter=No
 27	,	,	PUNCT	FF	_	30	punct	_	_
 28	con	con	ADP	E	_	30	case	_	_
@@ -411,7 +411,7 @@
 14	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
 15	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
 16	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
-17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	che	che	PRON	PR	PronType=Rel	19	obj	_	_
 18	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
 19	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
 20	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
@@ -1534,7 +1534,7 @@
 84	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	81	acl:relcl	_	SpaceAfter=No
 85	,	,	PUNCT	FF	_	90	punct	_	_
 86	ma	ma	CCONJ	CC	_	90	cc	_	_
-87	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	90	nsubj	_	_
+87	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	90	obj	_	_
 88	non	non	ADV	BN	PronType=Neg	90	advmod	_	_
 89	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	90	obj	_	_
 90	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	64	conj	_	_
@@ -2335,7 +2335,7 @@
 # text = Alcuni minuti prima mi sono fatta male quando stavo salendo delle scale, sono caduta e ho gridato orribilmente!
 # err = Alcuni minuti prima mi <IVGcascade><RX><i>ho fatto</i><c>sono fatto</c></RX><i>sono fatto</i><c>sono fatta</c></IVGcascade> male quando stavo <IV><i>saliendo</i><c>salendo</c></IV> delle scale, sono caduta e ho gridato <RR><i>orribile</i><c>orribilmente</c></RR>!
 1	Alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
-2	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+2	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
 3	prima	prima	ADV	B	_	4	case	_	_
 4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	expl	_	_
 5	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -5845,7 +5845,7 @@
 1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
 2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	marito	marito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
-4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	obj	_	_
 5	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
 6	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
 7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
@@ -6101,10 +6101,10 @@
 10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = 30-06_de-2
-# text = Litigavano ed l'uomo portava la sua ragazza dietro di sé.
+# text = Litigavano e l'uomo portava la sua ragazza dietro di sé.
 # err = <SB><i>Littigavano</i><c>Litigavano</c></SB> <FC><i>ed</i><c>e</c></FC> l'uomo portava la sua ragazza dietro di <SIM><i>se</i><c>sé</c></SIM>.
 1	Litigavano	litigare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-2	ed	ed	CCONJ	CC	_	5	cc	_	_
+2	e	e	CCONJ	CC	_	5	cc	_	_
 3	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
 5	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
@@ -6722,7 +6722,7 @@
 # text = Dopo che l'aveva salvata, Lois ha baciato Superman e ha detto «Il mio salvatore, grazie per sempre!»
 # err = Dopo <MC><i>_</i><c>che</c></MC> l'aveva salvata, Lois ha baciato <RN><i>Superuomo</i><c>Superman</c></RN> e ha detto " Il mio salvatore<SPR><i> -</i><c>,</c></SPR> grazie per sempre!"
 1	Dopo	dopo	SCONJ	CS	_	5	mark	_	_
-2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+2	che	che	SCONJ	CS	_	1	fixed	_	_
 3	l'	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
 4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
 5	salvata	salvare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	SpaceAfter=No
