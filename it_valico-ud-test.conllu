@@ -191,9 +191,9 @@
 20	,	,	PUNCT	FF	_	17	punct	_	_
 21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 22	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
-23	passare	passare	VERB	V	VerbForm=Inf	22	ccomp	_	_
+23	passare	passare	VERB	V	VerbForm=Inf	22	xcomp	_	_
 24	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+25	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
 26	fortissimo	forte	ADJ	A	Degree=Abs|Number=Sing	25	amod	_	SpaceAfter=No
 27	,	,	PUNCT	FF	_	25	punct	_	_
 28	con	con	ADP	E	_	30	case	_	_
@@ -407,7 +407,7 @@
 14	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
 15	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
 16	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
-17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	che	che	PRON	PR	PronType=Rel	19	obj	_	_
 18	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
 19	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
 20	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -1510,7 +1510,7 @@
 83	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	80	acl:relcl	_	SpaceAfter=No
 84	,	,	PUNCT	FF	_	89	punct	_	_
 85	ma	ma	CCONJ	CC	_	89	cc	_	_
-86	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	89	nsubj	_	_
+86	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	89	obj	_	_
 87	non	non	ADV	BN	PronType=Neg	89	advmod	_	_
 88	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	89	obj	_	_
 89	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	63	conj	_	_
@@ -5814,7 +5814,7 @@
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	marito	marito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
-5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	obj	_	_
 6	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
 7	battuto	battere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
 8	«	«	PUNCT	FB	_	9	punct	_	_
