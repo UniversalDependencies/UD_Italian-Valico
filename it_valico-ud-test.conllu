@@ -3847,8 +3847,8 @@
 15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	seguito	seguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	SpaceAfter=No
 17	;	;	PUNCT	FC	_	16	punct	_	_
-18	quando	quando	SCONJ	CS	_	21	mark	_	_
-19	se	se	SCONJ	CS	_	21	mark	_	_
+18	quando	quando	PRON	PC	_	21	mark	_	_
+19	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Pr	21	dep	_	_
 20	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	dep	_	_
 21	ruscito	ruscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	_	SpaceAfter=No
 22	,	,	PUNCT	FF	_	21	punct	_	_
