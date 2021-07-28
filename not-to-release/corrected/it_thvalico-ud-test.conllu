@@ -673,7 +673,7 @@
 
 # sent_id = 3-14_fr-3
 # text = Oggi non sono sicura se ho sognato o se ho realmente visto tutto, ma anche io mi sono un po' innamorata del bell'uomo!!
-# err = <SRScascade><WR><i>Non sono oggi</i><c>Oggi Non sono</c></WR><i>Oggi non sono</i><c>Oggi non sono</c></SRScascade> sicura <SC><i>si</i><c>se</c></SC> ho sognato o <SC><i>si</i><c>se</c></SC> ho realmente visto tutto, ma <MA><WA><WC><i>sono io anche</i><c>anche sono io</c></WC><i>anche sono io</i><c>anche io sono</c></WA><i>anche io sono</i><c>anche io mi sono</c></MA> un <SIM><i>po</i><c>po'</c></SIM> <DJ><SJT><i>unamora ta</i><c>unamorata</c></SJT><i>unamorata</i><c>innamorata</c></DJ> del <FJ><i>bel </i><c>bell'</c></FJ> uomo!!
+# err = <SRScascade><WR><i>Non sono oggi</i><c>Oggi Non sono</c></WR><i>Oggi non sono</i><c>Oggi non sono</c></SRScascade> sicura <SC><i>si</i><c>se</c></SC> ho sognato o <SC><i>si</i><c>se</c></SC> ho realmente visto tutto, ma <MA><WA><WR><i>sono io anche</i><c>anche sono io</c></WR><i>anche sono io</i><c>anche io sono</c></WA><i>anche io sono</i><c>anche io mi sono</c></MA> un <SIM><i>po</i><c>po'</c></SIM> <DJ><SJT><i>unamora ta</i><c>unamorata</c></SJT><i>unamorata</i><c>innamorata</c></DJ> del <FJ><i>bel </i><c>bell'</c></FJ> uomo!!
 1	Oggi	oggi	ADV	B	_	4	advmod	_	_
 2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
 3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -1125,7 +1125,7 @@
 16	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
 17	amore	amore	NOUN	S	Gender=Masc|Number=Sing	12	parataxis	_	SpaceAfter=No
 18	!	!	PUNCT	FS	_	19	punct	_	_
-19	Che	che	DET	DQ	PronType=Int	22	obj	_	_
+19	Che	che	PRON	PQ	PronType=Int	22	obj	_	_
 20	le	le	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	22	iobj	_	_
 21	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
 22	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	parataxis	_	SpaceAfter=No
@@ -2681,7 +2681,7 @@
 
 # sent_id = 11-10_es-1
 # text = Sono rimasto a leggere, non ho voglia di ascoltare il motivo del litigio.
-# err = <UC><i>Anche</i><c>_</c></UC> <SXScascade><RX><i>ho</i><c>sono</c></RX><i>sono</i><c>Sono</c></SXScascade> rimasto <RT><FTL><i>de</i><c>di</c></FTL><i>di</i><c>a</c></RT> leggere, non ho voglia <FTL><i>de</i><c>di</c></FTL> ascoltare il motivo del litigio.
+# err = <UR><i>Anche</i><c>_</c></UR> <SXScascade><RX><i>ho</i><c>sono</c></RX><i>sono</i><c>Sono</c></SXScascade> rimasto <RT><FTL><i>de</i><c>di</c></FTL><i>di</i><c>a</c></RT> leggere, non ho voglia <FTL><i>de</i><c>di</c></FTL> ascoltare il motivo del litigio.
 1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 3	a	a	ADP	E	_	4	mark	_	_
@@ -4465,7 +4465,7 @@
 
 # sent_id = 20-08_en-2
 # text = Non era felice di ciò che aveva fatto.
-# err = Non era felice <RT><i>con</i><c>di</c></RT> <MA><i>_</i><c>ciò</c></MA> che <UN><i>cosa</i><c>_</c></UN> aveva fatto.
+# err = Non era felice <RT><i>con</i><c>di</c></RT> <MA><i>_</i><c>ciò</c></MA> che <UNcascade><i>cosa</i><c>_</c></UNcascade> aveva fatto.
 1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
 2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
 3	felice	felice	ADJ	A	Number=Sing	0	root	_	_
@@ -5234,7 +5234,7 @@
 
 # sent_id = 25-05_fr-1
 # text = Poi, l'uomo con il vestito bianco dà un pugno al grande ragazzo; c'è il grande uomo a terra.
-# err = Poi, <FD><i>il </i><c>l'</c></FD>uomo con <IDN><i>gli</i><c>il</c></IDN> vestito <SJ><i>benco</i><c>bianco</c></SJ> <SIM><i>da</i><c>dà</c></SIM> <IDGcascade><MN><i>una</i><c>una pugno</c></MN><i>una pugno</i><c>un pugno</c></IDGcascade> al grande ragazzo<SPM><i>_</i><c>;</c></SPM> <SEM><i>cè</i><c>c'è</c></SEM> il grande uomo al <SN><i>sol</i><c>suolo</c></SN>.
+# err = Poi, <FD><i>il </i><c>l'</c></FD>uomo con <IDN><i>gli</i><c>il</c></IDN> vestito <SJ><i>benco</i><c>bianco</c></SJ> <SIM><i>da</i><c>dà</c></SIM> <IDGcascade><MN><i>una</i><c>una pugno</c></MN><i>una pugno</i><c>un pugno</c></IDGcascade> al grande ragazzo<SPM><i>_</i><c>;</c></SPM> <SEM><i>cè</i><c>c'è</c></SEM> il <WJ><i>grande uomo</i><c>uomo grande</c></WJ> al <SN><i>sol</i><c>suolo</c></SN>.
 1	Poi	poi	ADV	B	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_
 3	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
@@ -5689,7 +5689,7 @@
 
 # sent_id = 28-02_de-3
 # text = Ieri al parco...sedevo e leggevo il giornale di mattina.
-# err = Ieri al parco...<IVA><i>stavo sedendo</i><c>sedevo</c></IVA> e <IVA><i>leggendo</i><c>leggevo</c></IVA> il giornale di mattina.
+# err = Ieri al parco...<IVA><i>stavo sedendo</i><c>sedevo</c></IVA> e <IVAcascade><i>leggendo</i><c>leggevo</c></IVAcascade> il giornale di mattina.
 1	Ieri	ieri	ADV	B	_	6	advmod	_	_
 2-3	al	_	_	_	_	_	_	_	_
 2	a	a	ADP	E	_	4	case	_	_
@@ -8449,7 +8449,7 @@
 # err = "Ma CHE?" ha risposto la donna.
 1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
 2	Ma	ma	CCONJ	CC	_	3	cc	_	_
-3	CHE	che	DET	DQ	PronType=Int	7	parataxis	_	SpaceAfter=No
+3	CHE	che	PRON	PQ	PronType=Int	7	parataxis	_	SpaceAfter=No
 4	?	?	PUNCT	FS	_	7	punct	_	SpaceAfter=No
 5	"	"	PUNCT	FB	_	7	punct	_	_
 6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -8606,7 +8606,7 @@
 
 # sent_id = 36-01_es-3
 # text = Ieri al parco stavo leggendo il giornale quando ho visto un uomo che prendeva una donna, quindi ho pensato di aiutarla.
-# err = Ieri al parco <RX><IVT><i>sono stato</i><c>ero</c></IVT><i>ero</i><c>stavo</c></RX> leggendo <UT><FD><SEM><i>sull</i><c>sull'</c></SEM><i>sull'</i><c>sul</c></FD><i>sul</i><c>il</c></UT> <SB><i>giornalle</i><c>giornale</c></SB> <SC><i>cuando</i><c>quando</c></SC> ho <RV><i>guardato</i><c>visto</c></RV> un uomo che prendeva <UT><i>a</i><c>_</c></UT> una <RNL><i>moglie</i><c>donna</c></RNL>, quindi ho pensato <MT><i>_</i><c>di</c></MT> aiutarla.
+# err = Ieri al parco <RX><IVT><i>sono stato</i><c>ero</c></IVT><i>ero</i><c>stavo</c></RX> leggendo <UT><FD><SEM><i>sull</i><c>sull'</c></SEM><i>sull'</i><c>sul</c></FD><i>sul</i><c>il</c></UT> <SB><i>giornalle</i><c>giornale</c></SB> <SCL><i>cuando</i><c>quando</c></SCL> ho <RV><i>guardato</i><c>visto</c></RV> un uomo che prendeva <UT><i>a</i><c>_</c></UT> una <RNL><i>moglie</i><c>donna</c></RNL>, quindi ho pensato <MT><i>_</i><c>di</c></MT> aiutarla.
 1	Ieri	ieri	ADV	B	_	6	advmod	_	_
 2-3	al	_	_	_	_	_	_	_	_
 2	a	a	ADP	E	_	4	case	_	_
