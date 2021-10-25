@@ -58,7 +58,7 @@ Other references:
 
 2021-11-15
 
-  added the use of dislocated
+  added the relation dislocated
 
   more systematic treatment of error tags in the err field
 
