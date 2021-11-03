@@ -5,7 +5,7 @@ Manually corrected Treebank of Learner Italian drawn from the Valico corpus and 
 
 # Introduction
 
-UD Italian-Valico is a collection of 36 Italian as a Second Language texts (398 sentences and 6,784 tokens), in the Universal Dependencies formalism elicited from a comic strip. Each text is matched with a corrected version (TH) and both are automatically annotated and then manually corrected. The corrected texts are in corrected/it_thvalico-ud-test.conllu. In addition, in the err field, error annotation is performed. The annotations follow the standard Italian UD guidelines, along with a set of supplementary guidelines for error and dependency annotation (https://github.com/ElisaDiNuovo/VALICO-UD_guidelines). The treebank represents English, French, German, and Spanish learners of Italian at three different year of study. There are 9 texts for each native language and 3 texts per year of study.
+UD Italian-Valico is a collection of 36 Italian as a Second Language texts (398 sentences and 6,784 tokens), in the Universal Dependencies formalism elicited from a comic strip. Each text is matched with a corrected version (TH) and both are automatically annotated and then manually corrected. The corrected texts are in corrected/it_thvalico-ud-test.conllu. In addition, error annotation is provided in the err field. The annotations follow the standard Italian UD guidelines, along with a set of supplementary guidelines for error and dependency annotation (https://github.com/ElisaDiNuovo/VALICO-UD_guidelines). The treebank represents English, French, German, and Spanish learners of Italian at three different year of study. There are 9 texts for each native language and 3 texts per year of study.
 
 The treebank is realised as test set (TH are in corrected folder). 
 
@@ -53,6 +53,20 @@ Other references:
   year={2020},
   organization={CEUR}
 }
+
+# Changelog
+
+2021-11-15
+
+  added the relation dislocated
+
+  more systematic treatment of error tags in the err field
+
+  minor corrections
+
+2021-05-13
+
+  initial release
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
