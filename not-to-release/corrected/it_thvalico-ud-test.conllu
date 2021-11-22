@@ -784,7 +784,7 @@
 
 # sent_id = 4-03_fr-2
 # text = La donna non mi sembrava molto contenta e gridava da sopra le spalle dell'uomo.
-# err = La donna non mi sembrava molto contenta e gridava <MT><i>_</i><c>da</c></MT> sopra le spalle <FD><i>del </i><c>dell'</c></FD>uomo.
+# err = La donna non mi sembrava molto contenta e gridava <MT><i>_</i><c>da</c></MT> sopra le spalle <FDG><i>del </i><c>dell'</c></FDG>uomo.
 1	La	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
@@ -941,7 +941,7 @@
 
 # sent_id = 5-01_fr-3
 # text = Ieri al parco, un uomo che si chiama Matteo stava leggendo tranquillamente il suo giornale su una panchina.
-# err = Ieri al parco, <FD><i>uno</i><c>un</c></FD> uomo che si chiama Matteo stava leggendo tranquillamente il suo giornale su una panchina.
+# err = Ieri al parco, <FDG><i>uno</i><c>un</c></FDG> uomo che si chiama Matteo stava leggendo tranquillamente il suo giornale su una panchina.
 1	Ieri	ieri	ADV	B	_	13	advmod	_	_
 2-3	al	_	_	_	_	_	_	_	_
 2	a	a	ADP	E	_	4	case	_	_
@@ -1173,7 +1173,7 @@
 
 # sent_id = 6-03_es-3
 # text = L'uomo era alto, forte e molto muscoloso, ma io potevo batterlo e salvare la donna.
-# err = <FD><i>Il </i><c>L'</c></FD>uomo era alto, forte e molto <SJ><i>musculuso</i><c>muscoloso</c></SJ>, ma <SAS><i>Io</i><c>io</c></SAS> <IVT><IVP><i>può</i><c>posso</c></IVP><i>posso</i><c>potevo</c></IVT> <RA><FVL><i>derribarle</i><c>batterle</c></FVL><i>batterle</i><c>batterlo</c></RA> <MC><i>_</i><c>e</c></MC> salvare <UT><i>a</i><c>_</c></UT> la donna.
+# err = <FDG><i>Il </i><c>L'</c></FDG>uomo era alto, forte e molto <SJ><i>musculuso</i><c>muscoloso</c></SJ>, ma <SAS><i>Io</i><c>io</c></SAS> <IVT><IVP><i>può</i><c>posso</c></IVP><i>posso</i><c>potevo</c></IVT> <RA><FVL><i>derribarle</i><c>batterle</c></FVL><i>batterle</i><c>batterlo</c></RA> <MC><i>_</i><c>e</c></MC> salvare <UT><i>a</i><c>_</c></UT> la donna.
 1	L'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
@@ -1215,7 +1215,7 @@
 
 # sent_id = 6-05_es-3
 # text = Secondo lei, l'uomo era il suo amante.
-# err = Secondo lei<SPM><i>_</i><c>,</c></SPM> <FD><i>il </i><c>l'</c></FD>uomo era il suo amante.
+# err = Secondo lei<SPM><i>_</i><c>,</c></SPM> <FDG><i>il </i><c>l'</c></FDG>uomo era il suo amante.
 1	Secondo	secondo	ADP	E	_	2	case	_	_
 2	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
 3	,	,	PUNCT	FF	_	2	punct	_	_
@@ -1439,7 +1439,7 @@
 
 # sent_id = 8-02_es-2
 # text = Ieri al parco si trovava Giulio, un uomo che tutti i giorni al pomeriggio leggeva il giornale, lì seduto tranquillamente su una panca bianca con decorazioni in stile del '700, stava nel mezzo del parco dove si vedevano soltanto gli alberi e i fiori, nessun edificio si poteva vedere da lì, forse Giulio sceglieva questo bel posto per dimenticarsi un po' della invasione moderna e globalistica della città in cui viveva, ma questo non lo sappiamo con sicurezza quindi lo lasciamo da parte e proseguiamo con la nostra storia di questo abitudinario Giulio, il nostro protagonista dall'aspetto comune ma molto simpatico.
-# err = Ieri al parco si trovava Giulio, un uomo che tutti i giorni al pomeriggio leggeva il giornale, lì seduto <SB><i>tranquilamente</i><c>tranquillamente</c></SB> su una <RNL><i>banca</i><c>panca</c></RNL> bianca con <SN><i>arredamnti</i><c>arredamenti</c></SN> <MT><i>_</i><c>in</c></MT> <RNL><i>stilo</i><c>stile</c></RNL> del <SEM><i>700</i><c>'700</c></SEM>, stava nel mezzo del parco dove <WR><IVN><SR><i>soltando si vedeva</i><c>soltanto si vedeva</c></SR><i>soltanto si vedeva</i><c>soltanto si vedevano</c></IVN><i>soltanto si vedevano</i><c>si vedevano soltanto</c></WR> <IDN><i>l'</i><c>gli </c></IDN>alberi e <IDG><i>le</i><c>i</c></IDG> fiori, nessun edificio si poteva vedere da lì, forse Giulio sceglieva questo bel posto per <SV><i>dimnticarsi</i><c>dimenticarsi</c></SV> un <SER><i>pò</i><c>po'</c></SER> <STS><i>Della</i><c>della</c></STS> invasione moderna e globalistica della città in cui viveva, ma questo non lo sappiamo con sicurezza<SPM><i>_</i><c>,</c></SPM> quindi lo lasciamo da un'altra parte e <SV><i>prosiguiamo</i><c>proseguiamo</c></SV> con la <SJS><i>Nostra</i><c>nostra</c></SJS> storia di questo <FJL><i>routinario</i><c>abitudinario</c></FJL> Giulio, il nostro protagonista <STT><RT><FD><RD><i>di un</i><c>di il </c></RD><i>di il </i><c>di l'</c></FD><i>di l'</i><c>da l'</c></RT><i>da l'</i><c>dall'</c></STT>aspetto comune ma <SRS><i>Molto</i><c>molto</c></SRS> simpatico.
+# err = Ieri al parco si trovava Giulio, un uomo che tutti i giorni al pomeriggio leggeva il giornale, lì seduto <SB><i>tranquilamente</i><c>tranquillamente</c></SB> su una <RNL><i>banca</i><c>panca</c></RNL> bianca con <SN><i>arredamnti</i><c>arredamenti</c></SN> <MT><i>_</i><c>in</c></MT> <RNL><i>stilo</i><c>stile</c></RNL> del <SEM><i>700</i><c>'700</c></SEM>, stava nel mezzo del parco dove <WR><IVN><SR><i>soltando si vedeva</i><c>soltanto si vedeva</c></SR><i>soltanto si vedeva</i><c>soltanto si vedevano</c></IVN><i>soltanto si vedevano</i><c>si vedevano soltanto</c></WR> <IDN><i>l'</i><c>gli </c></IDN>alberi e <IDG><i>le</i><c>i</c></IDG> fiori, nessun edificio si poteva vedere da lì, forse Giulio sceglieva questo bel posto per <SV><i>dimnticarsi</i><c>dimenticarsi</c></SV> un <SER><i>pò</i><c>po'</c></SER> <STS><i>Della</i><c>della</c></STS> invasione moderna e globalistica della città in cui viveva, ma questo non lo sappiamo con sicurezza<SPM><i>_</i><c>,</c></SPM> quindi lo lasciamo da un'altra parte e <SV><i>prosiguiamo</i><c>proseguiamo</c></SV> con la <SJS><i>Nostra</i><c>nostra</c></SJS> storia di questo <FJL><i>routinario</i><c>abitudinario</c></FJL> Giulio, il nostro protagonista <STT><RT><FDG><RD><i>di un</i><c>di il </c></RD><i>di il </i><c>di l'</c></FDG><i>di l'</i><c>da l'</c></RT><i>da l'</i><c>dall'</c></STT>aspetto comune ma <SRS><i>Molto</i><c>molto</c></SRS> simpatico.
 1	Ieri	ieri	ADV	B	_	6	advmod	_	_
 2-3	al	_	_	_	_	_	_	_	_
 2	a	a	ADP	E	_	4	case	_	_
@@ -1665,7 +1665,7 @@
 
 # sent_id = 8-06_es-2
 # text = Ma a Giulio piace perdere tempo, queste sono delle cose che mi fanno arrabbiare moltissimo; insomma scusatemi, bravi lettori, siamo passati dal semplice al complicato.
-# err = <SCS><i>ma</i><c>Ma</c></SCS> a Giulio piace perdere tempo, queste sono delle cose che mi fanno <SB><SV><i>arraviare</i><c>arrabiare</c></SV><i>arrabiare</i><c>arrabbiare</c></SB> moltissimo<SPR><i>,</i><c>;</c></SPR> insomma scusatemi<SPM><i>_</i><c>,</c></SPM> <UD><i>i</i><c>_</c></UD> bravi lettori<SPM><i>_</i><c>,</c></SPM> <IVN><RX><i>abbiamo passato</i><c>siamo passato</c></RX><i>siamo passato</i><c>siamo passati</c></IVN> <RT><FD><i>dello</i><c>del</c></FD><i>del</i><c>dal</c></RT> semplice <FD><i>allo</i><c>al</c></FD> complicato.
+# err = <SCS><i>ma</i><c>Ma</c></SCS> a Giulio piace perdere tempo, queste sono delle cose che mi fanno <SB><SV><i>arraviare</i><c>arrabiare</c></SV><i>arrabiare</i><c>arrabbiare</c></SB> moltissimo<SPR><i>,</i><c>;</c></SPR> insomma scusatemi<SPM><i>_</i><c>,</c></SPM> <UD><i>i</i><c>_</c></UD> bravi lettori<SPM><i>_</i><c>,</c></SPM> <IVN><RX><i>abbiamo passato</i><c>siamo passato</c></RX><i>siamo passato</i><c>siamo passati</c></IVN> <RT><FDG><i>dello</i><c>del</c></FDG><i>del</i><c>dal</c></RT> semplice <FDG><i>allo</i><c>al</c></FDG> complicato.
 1	Ma	ma	CCONJ	CC	_	4	cc	_	_
 2	a	a	ADP	E	_	3	case	_	_
 3	Giulio	Giulio	PROPN	SP	_	4	obl	_	_
@@ -1705,7 +1705,7 @@
 
 # sent_id = 8-07_es-2
 # text = Il fatto è che Giulio leggeva tranquillamente, pareva un giorno come tutti, quando all'improvviso è apparso un uomo molto robusto che sembrava arrabbiato in faccia, portava alla spalla destra una ragazza che gridava come una disperata, ma non si riusciva a capire niente di quello che gridava, muoveva tutto il corpo come se volesse liberarsi da quell'uomo palestrato, quindi Giulio ha capito subito che quel giorno avrebbe fatto l'eroe della città o piuttosto del parco, salvando una ragazza indifesa.
-# err = Il fatto è che Giulio leggeva <SB><i>tranquilamente</i><c>tranquillamente</c></SB><SPM><i>_</i><c>,</c></SPM> pareva un giorno come tutti, quando <SB><i>all'improviso</i><c>all'improvviso</c></SB> è <IV><i>apparito</i><c>apparso</c></IV> un uomo molto robusto che sembrava <SB><SJ><i>arraviato</i><c>arrabiato</c></SJ><i>arrabiato</i><c>arrabbiato</c></SB> in faccia, portava alla spalla destra una ragazza che gridava come <MD><i>_</i><c>una</c></MD> <RJ><i>disparata</i><c>disperata</c></RJ><SPM><i>_</i><c>,</c></SPM> ma non si riusciva a capire niente di quello <SAL><i>que</i><c>che</c></SAL> gridava, muoveva tutto il corpo come se volesse liberarsi da <FD><i>quel </i><c>quell'</c></FD>uomo <RWP><i>in palestra</i><c>palestrato</c></RWP>, quindi <UR><i>rapidamente</i><c>_</c></UR> Giulio ha capito subito che quel giorno <IVT><i>farebbe</i><c>avrebbe fatto</c></IVT> l'eroe della città o <SIU><SB><i>piùtostto</i><c>piùttosto</c></SB><i>piùttosto</i><c>piuttosto</c></SIU> del parco, salvando una ragazza <RJ><i>indefessa</i><c>indifesa</c></RJ>.
+# err = Il fatto è che Giulio leggeva <SB><i>tranquilamente</i><c>tranquillamente</c></SB><SPM><i>_</i><c>,</c></SPM> pareva un giorno come tutti, quando <SB><i>all'improviso</i><c>all'improvviso</c></SB> è <IV><i>apparito</i><c>apparso</c></IV> un uomo molto robusto che sembrava <SB><SJ><i>arraviato</i><c>arrabiato</c></SJ><i>arrabiato</i><c>arrabbiato</c></SB> in faccia, portava alla spalla destra una ragazza che gridava come <MD><i>_</i><c>una</c></MD> <RJ><i>disparata</i><c>disperata</c></RJ><SPM><i>_</i><c>,</c></SPM> ma non si riusciva a capire niente di quello <SAL><i>que</i><c>che</c></SAL> gridava, muoveva tutto il corpo come se volesse liberarsi da <FDG><i>quel </i><c>quell'</c></FDG>uomo <RWP><i>in palestra</i><c>palestrato</c></RWP>, quindi <UR><i>rapidamente</i><c>_</c></UR> Giulio ha capito subito che quel giorno <IVT><i>farebbe</i><c>avrebbe fatto</c></IVT> l'eroe della città o <SIU><SB><i>piùtostto</i><c>piùttosto</c></SB><i>piùttosto</i><c>piuttosto</c></SIU> del parco, salvando una ragazza <RJ><i>indefessa</i><c>indifesa</c></RJ>.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1809,7 +1809,7 @@
 
 # sent_id = 8-08_es-2
 # text = Li aveva cominciati a seguire fino alla fine del parco, dove aveva visto una mazza da baseball che era portata da un bambino felice; lui si è avvicinato al bambino e gli ha rubato la sua mazza; povero bambino piangeva molto, non si sapeva se piangeva una bambina o un bambino; subito dopo dietro all'uomo robusto, Giulio, con la mazza e aiutato da una forza terribile, lo ha colpito a tal punto che l'uomo è caduto a piombo sul pavimento, ahi!
-# err = <RA><i>Gli</i><c>Li</c></RA> aveva <IVN><i>cominciato</i><c>cominciati</c></IVN> a seguire fino alla fine del parco<SPM><i>_</i><c>,</c></SPM> dove aveva visto <IDGcascade><FNL><i>un bat</i><c>un mazza</c></FNL><i>un mazza</i><c>una mazza</c></IDGcascade> <RT><i>di</i><c>da</c></RT> <SNT><i>base ball</i><c>baseball</c></SNT> <RA><IDGcascade><i>il quale</i><c>la quale</c></IDGcascade><i>la quale</i><c>che</c></RA> era <IVGcascade><i>portato</i><c>portata</c></IVGcascade> da un bambino felice<SPR><i>,</i><c>;</c></SPR> lui si è avvicinato al bambino e <RA><i>l'</i><c>gli </c></RA>ha rubato <IDGcascade><IDGcascade><FNL><i>il suo bat</i><c>il suo mazza</c></FNL><i>il suo mazza</i><c>la suo mazza</c></IDGcascade><i>la suo mazza</i><c>la sua mazza</c></IDGcascade><SPR><i>,</i><c>;</c></SPR> povero bambino <IV><SB><i>pianggiava</i><c>piangiava</c></SB><i>piangiava</i><c>piangeva</c></IV> molto, non si sapeva se <IV><SB><i>pianggiava</i><c>piangiava</c></SB><i>piangiava</i><c>piangeva</c></IV> una bambina o un bambino<SPR><i>,</i><c>;</c></SPR> subito dopo <RT><i>indietro</i><c>dietro</c></RT> <FD><i>al </i><c>all'</c></FD>uomo robusto<SPM><i>_</i><c>,</c></SPM> Giulio<SPM><i>_</i><c>,</c></SPM> con <IDGcascade><FNL><i>il bat</i><c>il mazza</c></FNL><i>il mazza</i><c>la mazza</c></IDGcascade> e aiutato da una forza terribile<SPM><i>_</i><c>,</c></SPM> <RA><i>gli</i><c>lo</c></RA> ha attaccato a tal punto che l'uomo <IVT><i>era caduto</i><c>è caduto</c></IVT> a piombo sul <RWP><i>suolo pavimentato</i><c>pavimento</c></RWP><SPM><i>_</i><c>,</c></SPM> <FJL><i>auuch</i><c>ahi</c></FJL>!
+# err = <RA><i>Gli</i><c>Li</c></RA> aveva <IVN><i>cominciato</i><c>cominciati</c></IVN> a seguire fino alla fine del parco<SPM><i>_</i><c>,</c></SPM> dove aveva visto <IDGcascade><FNL><i>un bat</i><c>un mazza</c></FNL><i>un mazza</i><c>una mazza</c></IDGcascade> <RT><i>di</i><c>da</c></RT> <SNT><i>base ball</i><c>baseball</c></SNT> <RA><IDGcascade><i>il quale</i><c>la quale</c></IDGcascade><i>la quale</i><c>che</c></RA> era <IVGcascade><i>portato</i><c>portata</c></IVGcascade> da un bambino felice<SPR><i>,</i><c>;</c></SPR> lui si è avvicinato al bambino e <RA><i>l'</i><c>gli </c></RA>ha rubato <IDGcascade><IDGcascade><FNL><i>il suo bat</i><c>il suo mazza</c></FNL><i>il suo mazza</i><c>la suo mazza</c></IDGcascade><i>la suo mazza</i><c>la sua mazza</c></IDGcascade><SPR><i>,</i><c>;</c></SPR> povero bambino <IV><SB><i>pianggiava</i><c>piangiava</c></SB><i>piangiava</i><c>piangeva</c></IV> molto, non si sapeva se <IV><SB><i>pianggiava</i><c>piangiava</c></SB><i>piangiava</i><c>piangeva</c></IV> una bambina o un bambino<SPR><i>,</i><c>;</c></SPR> subito dopo <RT><i>indietro</i><c>dietro</c></RT> <FDG><i>al </i><c>all'</c></FDG>uomo robusto<SPM><i>_</i><c>,</c></SPM> Giulio<SPM><i>_</i><c>,</c></SPM> con <IDGcascade><FNL><i>il bat</i><c>il mazza</c></FNL><i>il mazza</i><c>la mazza</c></IDGcascade> e aiutato da una forza terribile<SPM><i>_</i><c>,</c></SPM> <RA><i>gli</i><c>lo</c></RA> ha attaccato a tal punto che l'uomo <IVT><i>era caduto</i><c>è caduto</c></IVT> a piombo sul <RWP><i>suolo pavimentato</i><c>pavimento</c></RWP><SPM><i>_</i><c>,</c></SPM> <FJL><i>auuch</i><c>ahi</c></FJL>!
 1	Li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
 2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
 3	cominciati	cominciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
@@ -1851,7 +1851,7 @@
 36	e	e	CCONJ	CC	_	39	cc	_	_
 37	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	iobj	_	_
 38	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
-39	rubato	rubare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+39	rubato	rubare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	conj	_	_
 40	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 41	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	42	det:poss	_	_
 42	mazza	mazza	NOUN	S	Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No
@@ -2139,7 +2139,7 @@
 
 # sent_id = 9-03_es-3
 # text = Ho deciso di fare qualcosa, ovviamente l'uomo stava rapendo quella donna.
-# err = Ho deciso di fare qualcosa, ovviamente <FD><i>il </i><c>l'</c></FD>uomo stava rapendo quella donna.
+# err = Ho deciso di fare qualcosa, ovviamente <FDG><i>il </i><c>l'</c></FDG>uomo stava rapendo quella donna.
 1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 3	di	di	ADP	E	_	4	mark	_	_
@@ -2157,7 +2157,7 @@
 
 # sent_id = 9-04_es-3
 # text = Ho guardato bene l'uomo e non era così muscoloso come pensavo prima.
-# err = Ho <RV><i>visto</i><c>guardato</c></RV> bene <FD><UT><i>al </i><c>il </c></UT><i>il </i><c>l'</c></FD>uomo e non era così muscoloso come pensavo prima.
+# err = Ho <RV><i>visto</i><c>guardato</c></RV> bene <FDG><UT><i>al </i><c>il </c></UT><i>il </i><c>l'</c></FDG>uomo e non era così muscoloso come pensavo prima.
 1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	guardato	guardare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 3	bene	bene	ADV	B	_	2	advmod	_	_
@@ -2386,7 +2386,7 @@
 
 # sent_id = 10-05_es-1
 # text = Al parco, non lo so perché, un ragazzo pazzo e bruto ha picchiato il mio ragazzo...
-# err = Al parco, non lo so <SIR><SNT><i>per chè</i><c>perchè</c></SNT><i>perchè</i><c>perché</c></SIR>, un ragazzo pazzo e bruto ha <SB><i>pichiatto</i><c>picchiato</c></SB> <UT><i>al</i><c>il</c></UT> mio ragazzo...
+# err = Al parco, non lo so <SIR><SRT><i>per chè</i><c>perchè</c></SRT><i>perchè</i><c>perché</c></SIR>, un ragazzo pazzo e bruto ha <SB><i>pichiatto</i><c>picchiato</c></SB> <UT><i>al</i><c>il</c></UT> mio ragazzo...
 1-2	Al	_	_	_	_	_	_	_	_
 1	A	a	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -2395,7 +2395,7 @@
 5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
 6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
 7	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	_
-8	perché	perché	NOUN	S	Gender=Masc	7	obj	_	SpaceAfter=No
+8	perché	perché	ADV	B	Gender=Masc	7	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	FF	_	7	punct	_	_
 10	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
@@ -2701,7 +2701,7 @@
 
 # sent_id = 11-11_es-1
 # text = Però loro sono usciti allo scoperto e ho visto che l'uomo la teneva ferma da un braccio e la tirava aggressivamente.
-# err = <SIM><i>Pero</i><c>Però</c></SIM> loro sono <IVN><i>uscito</i><c>usciti</c></IVN> <RWW><FD><i>al aperto</i><c>all'aperto</c></FD><i>all'aperto</i><c>allo scoperto</c></RWW><SPU><i>,</i><c>_</c></SPU> e ho visto che <FD><i>il </i><c>l'</c></FD><SN><i>uome</i><c>uomo</c></SN><SPU><i>,</i><c>_</c></SPU> la teneva presa <RT><FTL><i>de</i><c>di</c></FTL><i>di</i><c>da</c></RT> un braccio e la tirava aggressivamente.
+# err = <SIM><i>Pero</i><c>Però</c></SIM> loro sono <IVN><i>uscito</i><c>usciti</c></IVN> <RWW><FDG><i>al aperto</i><c>all'aperto</c></FDG><i>all'aperto</i><c>allo scoperto</c></RWW><SPU><i>,</i><c>_</c></SPU> e ho visto che <FDG><i>il </i><c>l'</c></FDG><SN><i>uome</i><c>uomo</c></SN><SPU><i>,</i><c>_</c></SPU> la teneva presa <RT><FTL><i>de</i><c>di</c></FTL><i>di</i><c>da</c></RT> un braccio e la tirava aggressivamente.
 1	Però	però	CCONJ	CC	_	4	cc	_	_
 2	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -2730,7 +2730,7 @@
 
 # sent_id = 11-12_es-1
 # text = Mi sono alzato e gli ho detto di lasciarla perché le faceva male.
-# err = <SAS><i>MI</i><c>Mi</c></SAS> <FXL><i>he</i><c>sono</c></FXL> alzato e <FAL><i>le</i><c>gli</c></FAL> <MX><i>_</i><c>ho</c></MX> detto <UW><FD><i>al uomo</i><c>all'uomo</c></FD><i>all'uomo</i><c>_</c></UW> <FTL><i>de</i><c>di</c></FTL> lasciarla <SIR><i>perchè</i><c>perché</c></SIR> le faceva <RN><i>danno</i><c>male</c></RN>.
+# err = <SAS><i>MI</i><c>Mi</c></SAS> <FXL><i>he</i><c>sono</c></FXL> alzato e <FAL><i>le</i><c>gli</c></FAL> <MX><i>_</i><c>ho</c></MX> detto <UW><FDG><i>al uomo</i><c>all'uomo</c></FDG><i>all'uomo</i><c>_</c></UW> <FTL><i>de</i><c>di</c></FTL> lasciarla <SIR><i>perchè</i><c>perché</c></SIR> le faceva <RN><i>danno</i><c>male</c></RN>.
 1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
 2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	alzato	alzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -2750,7 +2750,7 @@
 
 # sent_id = 11-13_es-1
 # text = Mi sono offerto di chiamare la polizia ma lei è diventata molto arrabbiata con me.
-# err = Mi <FXL><FD><i>h'</i><c>he </c></FD><i>he </i><c>sono </c></FXL>offerto <ST><i>du</i><c>di</c></ST> chiamare la polizia <MC><i>_</i><c>ma</c></MC> <SAS><i>Lei</i><c>lei</c></SAS> <RX><i>ha</i><c>è</c></RX> <IVG><SVL><i>diventado</i><c>diventato</c></SVL><i>diventato</i><c>diventata</c></IVG> molto <SB><SJ><i>arraviata</i><c>arrabiata</c></SJ><i>arrabiata</i><c>arrabbiata</c></SB> con me.
+# err = Mi <FXL><SEU><i>h'</i><c>he </c></SEU><i>he </i><c>sono </c></FXL>offerto <ST><i>du</i><c>di</c></ST> chiamare la polizia <MC><i>_</i><c>ma</c></MC> <SAS><i>Lei</i><c>lei</c></SAS> <RX><i>ha</i><c>è</c></RX> <IVG><SVL><i>diventado</i><c>diventato</c></SVL><i>diventato</i><c>diventata</c></IVG> molto <SB><SJ><i>arraviata</i><c>arrabiata</c></SJ><i>arrabiata</i><c>arrabbiata</c></SB> con me.
 1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
 2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	offerto	offrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -3075,7 +3075,7 @@
 
 # sent_id = 12-06_es-1
 # text = Dopo un'ora il marito della ragazza si è svegliato e la ragazza era molto contenta e sono andati a casa e l'altro ragazzo ha chiesto scusa per quello che aveva fatto.
-# err = Dopo un'ora il marito della ragazza si è svegliato e la ragazza era molto contenta e sono andati a casa e <FD><i>il </i><c>l'</c></FD>altro ragazzo ha chiesto scusa per quello che aveva fatto.
+# err = Dopo un'ora il marito della ragazza si è svegliato e la ragazza era molto contenta e sono andati a casa e <FDG><i>il </i><c>l'</c></FDG>altro ragazzo ha chiesto scusa per quello che aveva fatto.
 1	Dopo	dopo	ADP	E	_	3	case	_	_
 2	un'	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	ora	ora	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
@@ -3436,7 +3436,7 @@
 
 # sent_id = 14-05_de-1
 # text = L'uomo è finito sul suolo e Giacomo si è sentito molto bene, ma la donna gli ha gridato: «Che hai fatto?!?»
-# err = L'uomo è <RV><i>stato</i><c>finito</c></RV> <FD><i>sull'</i><c>sul </c></FD>suolo e Giacomo si <RX><i>ha</i><c>è</c></RX> sentito molto bene<SPM><i>_</i><c>,</c></SPM> ma la donna <RA><i>le</i><c>gli</c></RA> ha gridato: "Che hai fatto?!?"
+# err = L'uomo è <RV><i>stato</i><c>finito</c></RV> <FDG><i>sull'</i><c>sul </c></FDG>suolo e Giacomo si <RX><i>ha</i><c>è</c></RX> sentito molto bene<SPM><i>_</i><c>,</c></SPM> ma la donna <RA><i>le</i><c>gli</c></RA> ha gridato: "Che hai fatto?!?"
 1	L'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -5068,7 +5068,7 @@
 
 # sent_id = 24-04_fr-1
 # text = Abbiamo visto un alto uomo prendere la donna e portarla verso l'uscita del parco.
-# err = <SB><i>Abiamo</i><c>Abbiamo</c></SB> <IV><i>veduto</i><c>visto</c></IV> <FD><i>uno</i><c>un</c></FD> alto uomo prendere la donna e portarla <ST><i>versa</i><c>verso</c></ST> l'uscita del parco.
+# err = <SB><i>Abiamo</i><c>Abbiamo</c></SB> <IV><i>veduto</i><c>visto</c></IV> <FDG><i>uno</i><c>un</c></FDG> alto uomo prendere la donna e portarla <ST><i>versa</i><c>verso</c></ST> l'uscita del parco.
 1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 3	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -5126,7 +5126,7 @@
 
 # sent_id = 24-07_fr-1
 # text = Quando ha sentito la donna, anche se era basso e meno forte dell'altro uomo, ha aiutato subito la donna e lei era molto impressionata.
-# err = Quando <SX><i>a</i><c>ha</c></SX> sentito la donna, <RC><i>mentre</i><c>anche se</c></RC> era basso e meno forte <FD><i>del </i><c>dell'</c></FD>altro uomo<SPM><i>_</i><c>,</c></SPM> <SX><i>a</i><c>ha</c></SX> <IVM><i>aiuto</i><c>aiutato</c></IVM> subito la donna e lei era molto impressionata.
+# err = Quando <SX><i>a</i><c>ha</c></SX> sentito la donna, <RC><i>mentre</i><c>anche se</c></RC> era basso e meno forte <FDG><i>del </i><c>dell'</c></FDG>altro uomo<SPM><i>_</i><c>,</c></SPM> <SX><i>a</i><c>ha</c></SX> <IVM><i>aiuto</i><c>aiutato</c></IVM> subito la donna e lei era molto impressionata.
 1	Quando	quando	SCONJ	CS	_	3	mark	_	_
 2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
@@ -5196,7 +5196,7 @@
 
 # sent_id = 25-03_fr-1
 # text = Un altro ragazzo sta sulla panca e legge un giornale e ha visto l'uomo brutto.
-# err = Un <FDL><i>otro</i><c>altro</c></FDL> ragazzo sta <IDGcascade><RNL><FD><i>sull banco</i><c>sul banco</c></FD><i>sul banco</i><c>sul panca</c></RNL><i>sul panca</i><c>sulla panca</c></IDGcascade> e <IVP><SB><i>lego</i><c>leggo</c></SB><i>leggo</i><c>legge</c></IVP> un giornale e <MX><i>_</i><c>ha</c></MX> visto l'uomo brutto.
+# err = Un <FDL><i>otro</i><c>altro</c></FDL> ragazzo sta <IDGcascade><RNL><FDG><SEM><i>sull banco</i><c>sull' banco</c></SEM><i>sull' banco</i><c>sul banco</c></FDG><i>sul banco</i><c>sul panca</c></RNL><i>sul panca</i><c>sulla panca</c></IDGcascade> e <IVP><SB><i>lego</i><c>leggo</c></SB><i>leggo</i><c>legge</c></IVP> un giornale e <MX><i>_</i><c>ha</c></MX> visto l'uomo brutto.
 1	Un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	altro	altro	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
 3	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -5233,7 +5233,7 @@
 
 # sent_id = 25-05_fr-1
 # text = Poi, l'uomo con il vestito bianco dà un pugno al grande ragazzo; c'è il grande uomo a terra.
-# err = Poi, <FD><i>il </i><c>l'</c></FD>uomo con <IDN><i>gli</i><c>il</c></IDN> vestito <SJ><i>benco</i><c>bianco</c></SJ> <SIM><i>da</i><c>dà</c></SIM> <IDGcascade><MN><i>una</i><c>una pugno</c></MN><i>una pugno</i><c>un pugno</c></IDGcascade> al grande ragazzo<SPM><i>_</i><c>;</c></SPM> <SEM><i>cè</i><c>c'è</c></SEM> il <WJ><i>grande uomo</i><c>uomo grande</c></WJ> al <SN><i>sol</i><c>suolo</c></SN>.
+# err = Poi, <FDG><i>il </i><c>l'</c></FDG>uomo con <IDN><i>gli</i><c>il</c></IDN> vestito <SJ><i>benco</i><c>bianco</c></SJ> <SIM><i>da</i><c>dà</c></SIM> <IDGcascade><MN><i>una</i><c>una pugno</c></MN><i>una pugno</i><c>un pugno</c></IDGcascade> al grande ragazzo<SPM><i>_</i><c>;</c></SPM> <SEM><i>cè</i><c>c'è</c></SEM> il <WJ><i>grande uomo</i><c>uomo grande</c></WJ> al <SN><i>sol</i><c>suolo</c></SN>.
 1	Poi	poi	ADV	B	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_
 3	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
@@ -5282,7 +5282,7 @@
 
 # sent_id = 25-07_fr-1
 # text = La ragazza fa un gesto con la sua mano.
-# err = La ragazza fa <FD><i>uno</i><c>un</c></FD> gesto <RT><FTL><i>de</i><c>di</c></FTL><i>di</i><c>con</c></RT> <MD><i>_</i><c>la</c></MD> sua mano.
+# err = La ragazza fa <FDG><i>uno</i><c>un</c></FDG> gesto <RT><FTL><i>de</i><c>di</c></FTL><i>di</i><c>con</c></RT> <MD><i>_</i><c>la</c></MD> sua mano.
 1	La	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5296,7 +5296,7 @@
 
 # sent_id = 25-08_fr-1
 # text = Poi l'uomo si sente male.
-# err = Poi <FD><i>il </i><c>l'</c></FD>uomo <FAL><i>se</i><c>si</c></FAL> <IVP><i>sento</i><c>sente</c></IVP> <URG><i>malo</i><c>male</c></URG>.
+# err = Poi <FDG><i>il </i><c>l'</c></FDG>uomo <FAL><i>se</i><c>si</c></FAL> <IVP><i>sento</i><c>sente</c></IVP> <URG><i>malo</i><c>male</c></URG>.
 1	Poi	poi	ADV	B	_	5	advmod	_	_
 2	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -5649,7 +5649,7 @@
 
 # sent_id = 27-09_de-3
 # text = «Dio, chi può capire le donne!» pensa l'uomo giovane e si accomoda sulla panca e legge di nuovo il giornale.
-# err = " Dio<SPM><i>_</i><c>,</c></SPM> <RA><i>che</i><c>chi</c></RA> può capire le donne!" <SVS><i>Pensa</i><c>pensa</c></SVS> <FD><i>il </i><c>l'</c></FD>uomo giovane e si accomoda <IDGcascade><RNL><i>sul banco</i><c>sul panca</c></RNL><i>sul panca</i><c>sulla panca</c></IDGcascade> e legge il giornale di nuovo.
+# err = " Dio<SPM><i>_</i><c>,</c></SPM> <RA><i>che</i><c>chi</c></RA> può capire le donne!" <SVS><i>Pensa</i><c>pensa</c></SVS> <FDG><i>il </i><c>l'</c></FDG>uomo giovane e si accomoda <IDGcascade><RNL><i>sul banco</i><c>sul panca</c></RNL><i>sul panca</i><c>sulla panca</c></IDGcascade> e legge il giornale di nuovo.
 1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
 2	Dio	dio	NOUN	S	_	6	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	FF	_	2	punct	_	_
@@ -5739,7 +5739,7 @@
 
 # sent_id = 28-06_de-3
 # text = All'improvviso venne un tizio con un viso furiosissimo!
-# err = <FD><DR><i>Al provviso</i><c>Al improvviso</c></DR><i>Al improvviso</i><c>All'improvviso</c></FD> venne un tizio con un viso furiosissimo!
+# err = <FDG><DR><i>Al provviso</i><c>Al improvviso</c></DR><i>Al improvviso</i><c>All'improvviso</c></FDG> venne un tizio con un viso furiosissimo!
 1-2	All'	_	_	_	_	_	_	_	SpaceAfter=No
 1	A	a	ADP	E	_	4	case	_	_
 2	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5827,7 +5827,7 @@
 
 # sent_id = 28-12_de-3
 # text = In quel momento era lei che diventava furiosa!
-# err = <STS><i>in</i><c>In</c></STS> <FD><i>quello</i><c>quel</c></FD> momento era lei<SPU><i>,</i><c>_</c></SPU> che <IVT><i>diventa</i><c>diventava</c></IVT> furiosa!
+# err = <STS><i>in</i><c>In</c></STS> <FDG><i>quello</i><c>quel</c></FDG> momento era lei<SPU><i>,</i><c>_</c></SPU> che <IVT><i>diventa</i><c>diventava</c></IVT> furiosa!
 1	In	in	ADP	E	_	3	case	_	_
 2	quel	quel	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
@@ -6024,7 +6024,7 @@
 
 # sent_id = 29-11_de-2
 # text = Il brutto uomo dormiente era amico della donna.
-# err = Il brutto uomo <IVO><i>dormendo</i><c>che stava dormendo</c></IVO> era <UD><FD><i>il</i><c>l'</c></FD><i>l'</i><c>_</c></UD>amico della donna.
+# err = Il brutto uomo <IVO><i>dormendo</i><c>che stava dormendo</c></IVO> era <UD><FDG><i>il</i><c>l'</c></FDG><i>l'</i><c>_</c></UD>amico della donna.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
 3	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -8605,7 +8605,7 @@
 
 # sent_id = 36-01_es-3
 # text = Ieri al parco stavo leggendo il giornale quando ho visto un uomo che prendeva una donna, quindi ho pensato di aiutarla.
-# err = Ieri al parco <RX><IVT><i>sono stato</i><c>ero</c></IVT><i>ero</i><c>stavo</c></RX> leggendo <UT><FD><SEM><i>sull</i><c>sull'</c></SEM><i>sull'</i><c>sul</c></FD><i>sul</i><c>il</c></UT> <SB><i>giornalle</i><c>giornale</c></SB> <SCL><i>cuando</i><c>quando</c></SCL> ho <RV><i>guardato</i><c>visto</c></RV> un uomo che prendeva <UT><i>a</i><c>_</c></UT> una <RNL><i>moglie</i><c>donna</c></RNL>, quindi ho pensato <MT><i>_</i><c>di</c></MT> aiutarla.
+# err = Ieri al parco <RX><IVT><i>sono stato</i><c>ero</c></IVT><i>ero</i><c>stavo</c></RX> leggendo <UT><FDG><SEM><i>sull</i><c>sull'</c></SEM><i>sull'</i><c>sul</c></FDG><i>sul</i><c>il</c></UT> <SB><i>giornalle</i><c>giornale</c></SB> <SCL><i>cuando</i><c>quando</c></SCL> ho <RV><i>guardato</i><c>visto</c></RV> un uomo che prendeva <UT><i>a</i><c>_</c></UT> una <RNL><i>moglie</i><c>donna</c></RNL>, quindi ho pensato <MT><i>_</i><c>di</c></MT> aiutarla.
 1	Ieri	ieri	ADV	B	_	6	advmod	_	_
 2-3	al	_	_	_	_	_	_	_	_
 2	a	a	ADP	E	_	4	case	_	_
@@ -8636,7 +8636,7 @@
 
 # sent_id = 36-02_es-3
 # text = Nel parco non c'era nessuno, solo io.
-# err = <FD><SEM><i>Nell</i><c>Nell'</c></SEM><i>Nell'</i><c>Nel</c></FD> parco non c'era <SPM><SWT><i>nessunosolo</i><c>nessuno solo</c></SWT><i>nessuno solo</i><c>nessuno, solo</c></SPM> io.
+# err = <FDG><SEM><i>Nell</i><c>Nell'</c></SEM><i>Nell'</i><c>Nel</c></FDG> parco non c'era <SPM><SWT><i>nessunosolo</i><c>nessuno solo</c></SWT><i>nessuno solo</i><c>nessuno, solo</c></SPM> io.
 1-2	Nel	_	_	_	_	_	_	_	_
 1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
