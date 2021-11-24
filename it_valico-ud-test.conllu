@@ -552,7 +552,7 @@
 
 # sent_id = 3-09_fr-3
 # text = L'ho chiamo superman e mi a fatto pensare a un film anrico di Benigni nel quale la principessa sogna di un prince gentile!
-# err = L'ho <IV><i>chiamo</i><c>chiamato</c></IV> superman e mi <SX><i>a</i><c>ha</c></SX> fatto pensare a un film <SJ><i>anrico</i><c>antico</c></SJ> di Benigni nel quale <RD><i>la</i><c>una</c></RD> principessa sogna <UT><i>di</i><c>_</c></UT> un <FNL><i>prince</i><c>principe</c></FNL> gentile!
+# err = L'ho <FV><i>chiamo</i><c>chiamato</c></FV> superman e mi <SX><i>a</i><c>ha</c></SX> fatto pensare a un film <SJ><i>anrico</i><c>antico</c></SJ> di Benigni nel quale <RD><i>la</i><c>una</c></RD> principessa sogna <UT><i>di</i><c>_</c></UT> un <FNL><i>prince</i><c>principe</c></FNL> gentile!
 1	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
 2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	chiamo	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -829,7 +829,7 @@
 
 # sent_id = 4-05_fr-2
 # text = Questo mi sembrava più carino e gentile ma al invece, quando ha ascolto la donna gridare, si alzava a l'uomo che sembrava più forte ma neanche caduti a terra.
-# err = Questo mi sembrava più carino e gentile ma<SPM><i>_</i><c>,</c></SPM> <UT><i>al</i><c>_</c></UT> invece, quando ha <RV><IV><i>ascolto</i><c>ascoltato</c></IV><i>ascoltato</i><c>sentito</c></RV> la donna gridare, si <IVT><i>alzava</i><c>è alzato</c></IVT><SPM><i>_</i><c>,</c></SPM> <SXcascade><MV><i>a</i><c>a colpito</c></MV><i>a colpito</i><c>ha colpito</c></SXcascade> l'uomo che sembrava più forte<SPM><i>_</i><c>,</c></SPM> ma <RWP><i>neanche</i><c>non era così</c></RWP><SPM><i>_</i><c>,</c></SPM> <MC><i>_</i><c>e</c></MC> <MX><i>_</i><c>sono</c></MX> caduti a terra.
+# err = Questo mi sembrava più carino e gentile ma<SPM><i>_</i><c>,</c></SPM> <UT><i>al</i><c>_</c></UT> invece, quando ha <RV><FV><i>ascolto</i><c>ascoltato</c></FV><i>ascoltato</i><c>sentito</c></RV> la donna gridare, si <IVT><i>alzava</i><c>è alzato</c></IVT><SPM><i>_</quai><c>,</c></SPM> <SXcascade><MV><i>a</i><c>a colpito</c></MV><i>a colpito</i><c>ha colpito</c></SXcascade> l'uomo che sembrava più forte<SPM><i>_</i><c>,</c></SPM> ma <RWP><i>neanche</i><c>non era così</c></RWP><SPM><i>_</i><c>,</c></SPM> <MC><i>_</i><c>e</c></MC> <MX><i>_</i><c>sono</c></MX> caduti a terra.
 1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
 3	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -2746,7 +2746,7 @@
 
 # sent_id = 11-14_es-1
 # text = Mi ha detto di no intrometermi nella sua discussione.
-# err = Mi ha detto di <RA><i>no</i><c>non</c></RA> <SB><i>intrometermi</i><c>intromettermi</c></SB> nella sua discussione.
+# err = Mi ha detto di <FR><i>no</i><c>non</c></FR> <SB><i>intrometermi</i><c>intromettermi</c></SB> nella sua discussione.
 1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
 2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -4586,7 +4586,7 @@
 
 # sent_id = 21-06_en-2
 # text = Ho pensato per un momento che l'avevo soccorsa ma ha iniziato a urlare a me « Perchè lei ciò ha fatto? », ha detto, « Me portava al dottore e resistevo ».
-# err = Ho pensato per un momento che l'avevo soccorsa ma ha iniziato a <RA><i>urlare a me</i><c>urlarmi</c></RA><SPM><i>_</i><c>:</c></SPM> "<SIR><i>Perchè</i><c>Perché</c></SIR> lei <WA><i>ciò ha fatto</i><c>ha fatto ciò</c></WA>? "<SPU><i>,</i><c>_</c></SPU> ha detto, " <RAL><i>Me</i><c>Mi</c></RAL> portava <RT><i>al</i><c>dal</c></RT> dottore e resistevo ".
+# err = Ho pensato per un momento che l'avevo soccorsa ma ha iniziato a <FA><i>urlare a me</i><c>urlarmi</c></FA><SPM><i>_</i><c>:</c></SPM> "<SIR><i>Perchè</i><c>Perché</c></SIR> lei <WA><i>ciò ha fatto</i><c>ha fatto ciò</c></WA>? "<SPU><i>,</i><c>_</c></SPU> ha detto, " <RAL><i>Me</i><c>Mi</c></RAL> portava <RT><i>al</i><c>dal</c></RT> dottore e resistevo ".
 1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 3	per	per	ADP	E	_	5	case	_	_
