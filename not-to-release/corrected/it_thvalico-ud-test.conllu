@@ -503,7 +503,7 @@
 
 # sent_id = 3-06_fr-3
 # text = Finalmente un bell'uomo con gli occhiali si è interposto e ha fatto cadere l'uomo brutto per salvare la donna.
-# err = <SRS><i>finalmente</i><c>Finalmente</c></SRS> un <FJ><i>bel </i><c>bell'</c></FJ>uomo con <MD><i>_</i><c>gli</c></MD> occhiali si <SIM><i>e</i><c>è</c></SIM> <IV><i>interposato</i><c>interposto</c></IV> e <SX><i>a</i><c>ha</c></SX> fatto cadere l'uomo brutto per salvare la donna.
+# err = <SRS><i>finalmente</i><c>Finalmente</c></SRS> un <FJG><i>bel </i><c>bell'</c></FJG>uomo con <MD><i>_</i><c>gli</c></MD> occhiali si <SIM><i>e</i><c>è</c></SIM> <IV><i>interposato</i><c>interposto</c></IV> e <SX><i>a</i><c>ha</c></SX> fatto cadere l'uomo brutto per salvare la donna.
 1	Finalmente	finalmente	ADV	B	_	4	advmod	_	_
 2	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	bell'	bello	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
@@ -673,7 +673,7 @@
 
 # sent_id = 3-14_fr-3
 # text = Oggi non sono sicura se ho sognato o se ho realmente visto tutto, ma anche io mi sono un po' innamorata del bell'uomo!!
-# err = <SRScascade><WR><i>Non sono oggi</i><c>Oggi Non sono</c></WR><i>Oggi non sono</i><c>Oggi non sono</c></SRScascade> sicura <SC><i>si</i><c>se</c></SC> ho sognato o <SC><i>si</i><c>se</c></SC> ho realmente visto tutto, ma <MA><WA><WR><i>sono io anche</i><c>anche sono io</c></WR><i>anche sono io</i><c>anche io sono</c></WA><i>anche io sono</i><c>anche io mi sono</c></MA> un <SIM><i>po</i><c>po'</c></SIM> <SJ><SJT><i>unamora ta</i><c>unamorata</c></SJT><i>unamorata</i><c>innamorata</c></SJ> del <FJ><i>bel </i><c>bell'</c></FJ> uomo!!
+# err = <SRScascade><WR><i>Non sono oggi</i><c>Oggi Non sono</c></WR><i>Oggi non sono</i><c>Oggi non sono</c></SRScascade> sicura <SC><i>si</i><c>se</c></SC> ho sognato o <SC><i>si</i><c>se</c></SC> ho realmente visto tutto, ma <MA><WA><WR><i>sono io anche</i><c>anche sono io</c></WR><i>anche sono io</i><c>anche io sono</c></WA><i>anche io sono</i><c>anche io mi sono</c></MA> un <SIM><i>po</i><c>po'</c></SIM> <SJ><SJT><i>unamora ta</i><c>unamorata</c></SJT><i>unamorata</i><c>innamorata</c></SJ> del <FJG><i>bel </i><c>bell'</c></FJG> uomo!!
 1	Oggi	oggi	ADV	B	_	4	advmod	_	_
 2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
 3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -2924,7 +2924,7 @@
 
 # sent_id = 12-03_es-1
 # text = Dopo mezz'ora glielo ha detto, erano tanto contenti nel parco, ma quando glielo ha detto si è preoccupato molto perché lì aveva il suo passaporto.
-# err = Dopo <FJcascade><IJG><i>mezzo </i><c>mezza </c></IJG><i>mezza </i><c>mezz'</c></FJcascade><UT><i>d'</i><c>_</c></UT>ora <MA><RA><i>li</i><c>gli</c></RA><i>gli</i><c>glielo</c></MA> ha detto<SPM><i>_</i><c>,</c></SPM> erano <FJL><i>tan</i><c>tanto</c></FJL> contenti nel parco, ma quando <MA><RA><i>li</i><c>gli</c></RA><i>gli</i><c>glielo</c></MA> ha detto si <SIM><i>e</i><c>è</c></SIM> <SB><i>preocupato</i><c>preoccupato</c></SB> molto <SIR><i>perchè</i><c>perché</c></SIR> <SIM><i>li</i><c>lì</c></SIM> aveva il suo <SB><i>pasaporto</i><c>passaporto</c></SB>.
+# err = Dopo <FJGcascade><IJG><i>mezzo </i><c>mezza </c></IJG><i>mezza </i><c>mezz'</c></FJGcascade><UT><i>d'</i><c>_</c></UT>ora <MA><RA><i>li</i><c>gli</c></RA><i>gli</i><c>glielo</c></MA> ha detto<SPM><i>_</i><c>,</c></SPM> erano <FJL><i>tan</i><c>tanto</c></FJL> contenti nel parco, ma quando <MA><RA><i>li</i><c>gli</c></RA><i>gli</i><c>glielo</c></MA> ha detto si <SIM><i>e</i><c>è</c></SIM> <SB><i>preocupato</i><c>preoccupato</c></SB> molto <SIR><i>perchè</i><c>perché</c></SIR> <SIM><i>li</i><c>lì</c></SIM> aveva il suo <SB><i>pasaporto</i><c>passaporto</c></SB>.
 1	Dopo	dopo	ADP	E	_	3	case	_	_
 2	mezz'	mezzo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
 3	ora	ora	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
@@ -5935,7 +5935,7 @@
 
 # sent_id = 29-06_de-2
 # text = Si sentiva come un buon carabiniere e ha cominciato a litigare con il brutto uomo in modo violento.
-# err = Si sentiva come un <FJ><i>buono</i><c>buon</c></FJ> <SB><i>carrabiniere</i><c>carabiniere</c></SB> e ha cominciato a <SV><i>tiglare</i><c>litigare</c></SV> con il brutto uomo in modo <RJ><DJ><i>forzo</i><c>forzoso</c></DJ><i>forzoso</i><c>violento</c></RJ>.
+# err = Si sentiva come un <FJG><i>buono</i><c>buon</c></FJG> <SB><i>carrabiniere</i><c>carabiniere</c></SB> e ha cominciato a <SV><i>tiglare</i><c>litigare</c></SV> con il brutto uomo in modo <RJ><DJ><i>forzo</i><c>forzoso</c></DJ><i>forzoso</i><c>violento</c></RJ>.
 1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
 2	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	come	come	ADV	B	_	6	advmod	_	_
@@ -5977,7 +5977,7 @@
 
 # sent_id = 29-08_de-2
 # text = Alcuni minuti dopo il ragazzo si è reso conto che il brutto sognava.
-# err = <RDN><i>Qualchi</i><c>Alcuni</c></RDN> minuti <RR><SR><i>fra</i><c>fa</c></SR><i>fa</i><c>dopo</c></RR> il ragazzo <MA><i>_</i><c>si</c></MA> <RX><i>ha</i><c>è</c></RX> <IV><i>renduto</i><c>reso</c></IV> conto che il brutto sognava.
+# err = <RD><i>Qualchi</i><c>Alcuni</c></RD> minuti <RR><SR><i>fra</i><c>fa</c></SR><i>fa</i><c>dopo</c></RR> il ragazzo <MA><i>_</i><c>si</c></MA> <RX><i>ha</i><c>è</c></RX> <IV><i>renduto</i><c>reso</c></IV> conto che il brutto sognava.
 1	Alcuni	alcuno	DET	DI	Number=Plur|PronType=Ind	2	det	_	_
 2	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
 3	dopo	dopo	ADV	B	_	2	advmod	_	_
