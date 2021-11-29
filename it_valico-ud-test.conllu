@@ -4746,7 +4746,7 @@
 
 # sent_id = 22-04_fr-2
 # text = Decide salvare la bella ragazza e per fare eso mete na terra l'uomo.
-# err = Decide <MT><i>_</i><c>di</c></MT> salvare la bella ragazza e per fare <RAL><i>eso</i><c>ciò</c></RAL> <SB><i>mete</i><c>mette</c></SB> <SD><i>na</i><c>a</c></SD> terra l'uomo.
+# err = Decide <MT><i>_</i><c>di</c></MT> salvare la bella ragazza e per fare <FAL><i>eso</i><c>ciò</c></FAL> <SB><i>mete</i><c>mette</c></SB> <SD><i>na</i><c>a</c></SD> terra l'uomo.
 1	Decide	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	salvare	salvare	VERB	V	VerbForm=Inf	1	xcomp	_	_
 3	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
