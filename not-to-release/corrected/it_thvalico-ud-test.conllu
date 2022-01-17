@@ -1399,7 +1399,7 @@
 13	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
 
 # sent_id = 7-09_es-2
-# text = Speravo di ricevere un ringraziamento, ma la ragazza molto arrabbiata mi ha detto di non immischiarmi nei loro affari.﻿
+# text = Speravo di ricevere un ringraziamento, ma la ragazza molto arrabbiata mi ha detto di non immischiarmi nei loro affari.
 # err = <FVL><i>Esperavo</i><c>Speravo</c></FVL> <MT><i>_</i><c>di</c></MT> ricevere un <DN><i>ringrazio</i><c>ringraziamento</c></DN>, ma la ragazza molto <SB><SJ><i>arraviata</i><c>arrabiata</c></SJ><i>arrabiata</i><c>arrabbiata</c></SB> mi ha detto <RSE><i>che</i><c>di</c></RSE> non <WA><RV><i>mi dichiarare</i><c>mi immischiare</c></RV><i>mi immischiare</i><c>immischiarmi</c></WA> <MD><i>in</i><c>nei</c></MD> loro affari.﻿
 1	Speravo	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	di	di	ADP	E	_	3	mark	_	_
@@ -1425,7 +1425,7 @@
 20	i	i	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 21	loro	loro	DET	AP	Poss=Yes|PronType=Prs	22	det:poss	_	_
 22	affari	affari	NOUN	S	_	17	obl	_	SpaceAfter=No
-23	.﻿	.﻿	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 8-01_es-2
 # text = IERI AL PARCO...
@@ -2285,13 +2285,13 @@
 12	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = 9-10_es-3
-# text = Stanco e senza giornale.﻿
-# err = Stanco e senza giornale.﻿
-1	Stanco	stanco	PROPN	SP	_	0	root	_	_
+# text = Stanco e senza giornale.
+# err = Stanco e senza giornale.
+1	Stanco	stanco	ADJ	A	_	0	root	_	_
 2	e	e	CCONJ	CC	_	4	cc	_	_
 3	senza	senza	ADP	E	_	4	case	_	_
 4	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
-5	.﻿	.﻿	PROPN	SP	_	4	nmod	_	SpacesAfter=\n
+5	.	.	PUNCT	FS	_	4	nmod	_	SpacesAfter=\n
 
 # sent_id = 10-01_es-1
 # text = IERI AL PARCO
@@ -7539,14 +7539,14 @@
 18	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
 
 # sent_id = 34-21_en-3
-# text = Ho pensato che questa situazione fosse la mia opportunità.
-# err = Ho pensato che questa situazione <IVM><i>era</i><c>fosse</c></IVM> la mia opportunità.
+# text = Ho pensato che questa situazione era la mia opportunità.
+# err = Ho pensato che questa situazione era la mia opportunità.
 1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 3	che	che	SCONJ	CS	_	9	mark	_	_
 4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
-6	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
 7	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	opportunità	opportunità	NOUN	S	Gender=Fem	2	ccomp	_	SpaceAfter=No
