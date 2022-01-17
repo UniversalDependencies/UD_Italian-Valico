@@ -2254,13 +2254,13 @@
 12	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = 9-10_es-3
-# text = Stanco e senza giornale.﻿
-# err = Stanco e senza giornale.﻿
+# text = Stanco e senza giornale.
+# err = Stanco e senza giornale.
 1	Stanco	stanco	ADJ	A	_	0	root	_	_
 2	e	e	CCONJ	CC	_	4	cc	_	_
 3	senza	senza	ADP	E	_	4	case	_	_
 4	giornale	giornale	NOUN	S	_	1	conj	_	SpaceAfter=No
-5	.﻿	.﻿	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 10-01_es-1
 # text = IERI AL PARCO
@@ -4437,7 +4437,7 @@
 9	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = 20-09_en-2
-# text = Ha dato all'uomo sulla terra una mano ed ha detto all'uomo che lo aveva battuto giù quello che era soltanto il suo fratello che prova a raccogliere i suoi soldi.﻿
+# text = Ha dato all'uomo sulla terra una mano ed ha detto all'uomo che lo aveva battuto giù quello che era soltanto il suo fratello che prova a raccogliere i suoi soldi.
 # err = Ha dato all'uomo <RT><UD><i>sulla</i><c>su</c></UD><i>su</i><c>a</c></RT> terra una mano ed ha detto all'uomo che lo aveva <RV><i>battuto</i><c>buttato</c></RV> giù <WC><i>quello che</i><c>che quello</c></WC> era soltanto <UD><i>il</i><c>_</c></UD> suo fratello che <IVT><i>prova</i><c>provava</c></IVT> a raccogliere i suoi soldi.﻿
 1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -4477,7 +4477,7 @@
 33	i	i	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
 34	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	35	det:poss	_	_
 35	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	32	obj	_	SpaceAfter=No
-36	.﻿	.﻿	PROPN	SP	_	35	nmod	_	SpacesAfter=\n
+36	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 21-01_en-2
 # text = Ieri al parco sedevo su una panca leggendo il giornale quando ho sentito una donna che gridava.
@@ -7504,7 +7504,7 @@
 
 # sent_id = 34-21_en-3
 # text = Ho pensato che questa situazione era la mia opportunità.
-# err = Ho pensato che questa situazione <IVM><i>era</i><c>fosse</c></IVM> la mia opportunità.
+# err = Ho pensato che questa situazione era la mia opportunità.
 1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 3	che	che	SCONJ	CS	_	9	mark	_	_
