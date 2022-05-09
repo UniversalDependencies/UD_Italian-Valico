@@ -860,7 +860,7 @@
 27	più	più	ADV	B	_	28	advmod	_	_
 28	forte	forte	ADJ	A	Number=Sing	26	xcomp	_	_
 29	ma	ma	CCONJ	CC	_	31	cc	_	_
-30	neanche	neanche	ADV	BN	PronType=Neg	28	advmod	_	_
+30	neanche	neanche	ADV	BN	PronType=Neg	29	advmod	_	_
 31	caduti	cadere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	parataxis	_	_
 32	a	a	ADP	E	_	33	case	_	_
 33	terra	terra	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
@@ -1367,9 +1367,9 @@
 1	se	se	SCONJ	CS	_	6	mark	_	_
 2	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
-4	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+4	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
 5	i	in	ADP	E	_	6	case	_	_
-6	difficoltà	difficoltà	NOUN	S	Gender=Fem	4	obl	_	_
+6	difficoltà	difficoltà	NOUN	S	Gender=Fem	10	advcl	_	_
 7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
 8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
@@ -1734,7 +1734,7 @@
 50	que	que	PRON	PR	PronType=Rel	51	nsubj	_	Foreign=Yes
 51	gridava	gridare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
 52	,	,	PUNCT	FF	_	51	punct	_	_
-53	muoveva	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	conj	_	_
+53	muoveva	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	conj	_	_
 54	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	56	det	_	_
 55	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 56	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	53	obj	_	_
@@ -2520,7 +2520,7 @@
 
 # sent_id = 11-04_es-1
 # text = Cominciamo col cibo e drinks alle catordieci e erano le diecisette e le numero de suoe amiche che arrivano era in crecendo.
-# err = <IVT><i>Cominciamo</i><c>Abbiamo cominciato</c></IVT> <UD><i>col</i><c>con</c></UD> cibo e <INL><i>drinks</i><c>drink</c></INL> alle <FML><i>catordieci</i><c>quattordici</c></FML> e erano le <FML><i>diecisette</i><c>diciassette</c></FML> e <IDN><IDG><i>le</i><c>i</c></IDG><i>i</i><c>il</c></IDN> numero <MD><i>de</i><c>delle</c></MD> <FD><i>suoe</i><c>sue</c></FD> amiche che <IVT><i>arrivano</i><c>arrivavano</c></IVT> era in <SR><i>crecendo</i><c>crescendo</c></SR>.
+# err = <IVT><i>Cominciamo</i><c>Abbiamo cominciato</c></IVT> <UD><i>col</i><c>con</c></UD> cibo e <INL><i>drinks</i><c>drink</c></INL> alle <FML><i>catordieci</i><c>quattordici</c></FML> e erano le <FML><i>diecisette</i><c>diciassette</c></FML> e <IDN><IDG><i>le</i><c>i</c></IDG><i>i</i><c>il</c></IDN> numero <MD><i>de</i><c>delle</c></MD> <SD><i>suoe</i><c>sue</c></SD> amiche che <IVT><i>arrivano</i><c>arrivavano</c></IVT> era in <SR><i>crecendo</i><c>crescendo</c></SR>.
 1	Cominciamo	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2-3	col	_	_	_	_	_	_	_	_
 2	con	con	ADP	E	_	4	case	_	_
@@ -2840,7 +2840,7 @@
 9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
 10	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
 11	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	borsa	borsa	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+12	borsa	borsa	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
 13	ma	ma	CCONJ	CC	_	19	cc	_	_
 14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	problema	problema	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
@@ -3093,9 +3093,9 @@
 35	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
 
 # sent_id = 13-01_es-2
-# text = ﻿Ieri al parco ero seduto su una panchina e leggevo tranquilamente qualcosa che mi piaceva; vale dire che godevo dei suoni degli ucelli, il vento sfiorando gli alberi...
+# text = Ieri al parco ero seduto su una panchina e leggevo tranquilamente qualcosa che mi piaceva; vale dire che godevo dei suoni degli ucelli, il vento sfiorando gli alberi...
 # err = Ieri al parco ero seduto su una panchina e leggevo <SB><i>tranquilamente</i><c>tranquillamente</c></SB> qualcosa che mi piaceva; vale dire che godevo dei suoni degli <SB><i>ucelli</i><c>uccelli</c></SB>, <MT><i>il</i><c>del</c></MT> vento <IVO><i>sfiorando</i><c>che sfiorava</c></IVO> gli alberi...
-1	﻿Ieri	﻿ieri	ADV	B	_	6	advmod	_	_
+1	Ieri	ieri	ADV	B	_	6	advmod	_	_
 2-3	al	_	_	_	_	_	_	_	_
 2	a	a	ADP	E	_	4	case	_	_
 3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3979,7 +3979,7 @@
 # sent_id = 18-05_en-1
 # text = SEDUTO SU UNA SEDILE C'ERA UN UOMO CHE LEGGEVA UN GIORNALE.
 # err = SEDUTO SU <IDG><i>UNA</i><c>UN</c></IDG> SEDILE C'ERA UN UOMO CHE LEGGEVA UN GIORNALE.
-1	SEDUTO	sedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+1	SEDUTO	sedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
 2	SU	su	ADP	E	_	4	case	_	_
 3	UNA	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	SEDILE	sedile	NOUN	S	Number=Sing	1	obl	_	_
@@ -4208,11 +4208,11 @@
 1	Lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	suggerito	suggerire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-4	che	che	SCONJ	CS	_	11	mark	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
 5-6	nel	_	_	_	_	_	_	_	_
 5	in	in	ADP	E	_	7	case	_	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	LOC=adv|SpaceAfter=No
+7	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	LOC=adv|SpaceAfter=No
 8	,	,	PUNCT	FF	_	7	punct	_	_
 9	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 10	meglio	meglio	ADV	B	_	3	ccomp	_	_
@@ -4370,7 +4370,7 @@
 15	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 16	che	che	SCONJ	CS	_	19	mark	_	_
 17	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	donna	donna	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+18	donna	donna	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
 19	rovesciare	rovesciare	VERB	V	VerbForm=Inf	15	ccomp	_	_
 20	l'	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	eccedenza	eccedenza	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
@@ -4562,7 +4562,7 @@
 # sent_id = 21-05_en-2
 # text = Non appena ha lasciato va l'ho perforato nella faccia e l'ha bussato al suolo.
 # err = Non appena <MA><i>ha</i><c>l'ha</c></MA> <IVG><i>lasciato</i><c>lasciata</c></IVG> <IVM><i>va</i><c>andare</c></IVM><SPM><i>_</i><c>,</c></SPM> l'ho <RV><i>perforato</i><c>colpito</c></RV> nella faccia e l'<IVP><i>ha</i><c>ho</c></IVP> <RV><i>bussato</i><c>buttato</c></RV> al suolo.
-1	Non	non	SCONJ	CS	_	5	mark	_	_
+1	Non	non	SCONJ	CS	_	4	mark	_	_
 2	appena	appena	SCONJ	CS	_	1	fixed	_	_
 3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
@@ -5495,12 +5495,12 @@
 8	grande	grande	ADJ	A	Number=Sing	9	amod	_	_
 9	forza	forza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
 10	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
-11	e	e	CCONJ	CC	_	14	cc	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
 12	con	con	ADP	E	_	13	case	_	_
 13	malumore	malumore	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
 14	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 15	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+16	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
 17-18	sulle	_	_	_	_	_	_	_	_
 17	su	su	ADP	E	_	20	case	_	_
 18	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
@@ -5577,8 +5577,8 @@
 4	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
 5	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
 6	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	che	che	SCONJ	CS	_	10	mark	_	_
-8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	inamorata	inamorato	ADJ	A	Gender=Fem|Number=Sing	6	ccomp	_	_
 10	cotta	cotta	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
 11-12	nel	_	_	_	_	_	_	_	_
@@ -5629,9 +5629,9 @@
 18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	banco	banco	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
 20	e	e	CCONJ	CC	_	21	cc	_	_
-21	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+21	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
 22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+23	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
 24	di	di	ADP	E	_	25	case	_	_
 25	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	21	obl	_	LOC=adv|SpaceAfter=No
 26	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
@@ -6080,7 +6080,7 @@
 5	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
 6	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
-8	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+8	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
 9	dietro	dietro	ADV	B	_	11	case	_	_
 10	di	di	ADP	E	_	9	fixed	_	_
 11	se	se	PRON	PE	Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
@@ -7218,12 +7218,12 @@
 3	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
 4	strategie	strategia	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
 5	per	per	ADP	E	_	6	mark	_	_
-6	attrarre	attrarre	VERB	V	VerbForm=Inf	2	advcl	_	_
+6	attrarre	attrarre	VERB	V	VerbForm=Inf	4	acl	_	_
 7	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
 9	tale	tale	ADJ	A	Number=Sing|PronType=Dem	11	mark	_	_
 10	come	come	SCONJ	CS	_	9	fixed	_	_
-11	camminare	camminare	VERB	V	VerbForm=Inf	4	acl	_	_
+11	camminare	camminare	VERB	V	VerbForm=Inf	2	advcl	_	_
 12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	canino	cane	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	EvalMorph=Dim
 14-15	al	_	_	_	_	_	_	_	_
