@@ -1386,9 +1386,9 @@
 1	Se	se	SCONJ	CS	_	6	mark	_	_
 2	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
-4	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+4	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
 5	in	in	ADP	E	_	6	case	_	_
-6	difficoltà	difficoltà	NOUN	S	Gender=Fem	4	obl	_	SpaceAfter=No
+6	difficoltà	difficoltà	NOUN	S	Gender=Fem	10	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	FF	_	6	punct	_	_
 8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
 9	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
@@ -1763,7 +1763,7 @@
 53	che	che	PRON	PR	PronType=Rel	54	nsubj	_	_
 54	gridava	gridare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	52	acl:relcl	_	SpaceAfter=No
 55	,	,	PUNCT	FF	_	56	punct	_	_
-56	muoveva	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	47	conj	_	_
+56	muoveva	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	conj	_	_
 57	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	59	det	_	_
 58	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
 59	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	56	obj	_	_
@@ -2862,7 +2862,7 @@
 9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
 10	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
 11	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	borsa	borsa	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+12	borsa	borsa	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
 13	ma	ma	CCONJ	CC	_	16	cc	_	_
 14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	problema	problema	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
@@ -4015,7 +4015,7 @@
 # sent_id = 18-05_en-1
 # text = SEDUTO SU UN SEDILE C'ERA UN UOMO CHE LEGGEVA UN GIORNALE.
 # err = SEDUTO SU <IDG><i>UNA</i><c>UN</c></IDG> SEDILE C'ERA UN UOMO CHE LEGGEVA UN GIORNALE.
-1	SEDUTO	sedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+1	SEDUTO	sedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
 2	SU	su	ADP	E	_	4	case	_	_
 3	UN	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	SEDILE	sedile	NOUN	S	Number=Sing	1	obl	_	_
@@ -4249,10 +4249,10 @@
 1	Lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	suggerito	suggerire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-4	che	che	SCONJ	CS	_	9	mark	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
 5	in	in	ADP	E	_	6	case	_	_
-6	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	LOC=adv
-7	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	LOC=adv
+7	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 8	meglio	meglio	ADV	B	_	3	ccomp	_	_
 9	ignorare	ignorare	VERB	V	VerbForm=Inf	8	csubj	_	_
 10	gli	gli	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
@@ -5672,7 +5672,7 @@
 19	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	panca	panca	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
 21	e	e	CCONJ	CC	_	22	cc	_	_
-22	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+22	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
 23	di	di	ADP	E	_	24	case	_	_
 24	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	22	obl	_	LOC=adv
 25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -7258,12 +7258,12 @@
 3	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
 4	strategie	strategia	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
 5	per	per	ADP	E	_	6	mark	_	_
-6	attrarre	attrarre	VERB	V	VerbForm=Inf	2	advcl	_	_
+6	attrarre	attrarre	VERB	V	VerbForm=Inf	4	acl	_	_
 7	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	FF	_	11	punct	_	_
 10	come	come	ADV	B	_	11	advmod	_	_
-11	passeggiare	passeggiare	VERB	V	VerbForm=Inf	4	acl	_	_
+11	passeggiare	passeggiare	VERB	V	VerbForm=Inf	2	advcl	_	_
 12	con	con	ADP	E	_	14	case	_	_
 13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	cagnolino	cane	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	EvalMorph=Dim
