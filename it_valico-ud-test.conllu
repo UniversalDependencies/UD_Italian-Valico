@@ -687,7 +687,7 @@
 18	anche	anche	ADV	B	_	21	advmod	_	_
 19	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	po	po	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	LOC=adv
-21	unamora	unamora	ADJ	A	Gender=Fem|Number=Sing|Typo=Yes	4	conj	_	_
+21	unamora	unamora	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	_
 22	ta	_	X	_	_	21	goeswith	_	_
 23-24	del	_	_	_	_	_	_	_	_
 23	di	di	ADP	E	_	26	case	_	_
@@ -860,7 +860,7 @@
 27	più	più	ADV	B	_	28	advmod	_	_
 28	forte	forte	ADJ	A	Number=Sing	26	xcomp	_	_
 29	ma	ma	CCONJ	CC	_	31	cc	_	_
-30	neanche	neanche	ADV	BN	PronType=Neg	29	advmod	_	_
+30	neanche	neanche	ADV	BN	PronType=Neg	28	advmod	_	_
 31	caduti	cadere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	parataxis	_	_
 32	a	a	ADP	E	_	33	case	_	_
 33	terra	terra	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
@@ -1367,7 +1367,7 @@
 1	se	se	SCONJ	CS	_	6	mark	_	_
 2	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
-4	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
 5	i	in	ADP	E	_	6	case	_	_
 6	difficoltà	difficoltà	NOUN	S	Gender=Fem	10	advcl	_	_
 7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
@@ -1802,7 +1802,7 @@
 16	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	bat	bat	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	Foreign=Yes
 18	di	di	ADP	E	_	19	case	_	_
-19	base	baseball	NOUN	S	Gender=Fem|Number=Sing|Typo=Yes	17	nmod	_	_
+19	base	baseball	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
 20	ball	_	X	_	_	19	goeswith	_	_
 21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	quale	quale	PRON	PR	Number=Sing|PronType=Rel	24	nsubj:pass	_	_
@@ -2364,7 +2364,7 @@
 5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
 6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
 7	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	advcl	_	_
-8	per	perchè	ADV	B	Gender=Masc|Typo=Yes	7	advmod	_	_
+8	per	perchè	ADV	B	Gender=Masc	7	advmod	_	_
 9	chè	_	X	_	_	8	goeswith	_	SpaceAfter=No
 10	,	,	PUNCT	FF	_	7	punct	_	_
 11	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -2787,7 +2787,7 @@
 6	suceso	sucedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	distrasto	distrasto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
-9	per	perche	SCONJ	CS	Typo=Yes	14	mark	_	_
+9	per	perche	SCONJ	CS	_	14	mark	_	_
 10	che	_	X	_	_	9	goeswith	_	_
 11	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	donna	donna	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
@@ -3028,7 +3028,7 @@
 45	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	47	iobj	_	_
 46	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	_
 47	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	conj	_	_
-48	per	perche	ADV	B	Typo=Yes	51	advmod	_	_
+48	per	perche	ADV	B	_	51	advmod	_	_
 49	che	_	X	_	_	48	goeswith	_	_
 50	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	51	aux	_	_
 51	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	47	ccomp	_	_
@@ -5415,7 +5415,7 @@
 7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	raggazzo	raggazzo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
-10	co	cosi	ADV	B	Typo=Yes	6	advmod	_	_
+10	co	cosi	ADV	B	_	6	advmod	_	_
 11	si	_	X	_	_	10	goeswith	_	SpaceAfter=No
 12	,	,	PUNCT	FF	_	6	punct	_	_
 13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
