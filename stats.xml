@@ -10,37 +10,37 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>398</sentences><tokens>6508</tokens><words>6784</words><fused>273</fused></test>
   </size>
-  <lemmas unique="968" /><!-- ., avere, il, essere, la, ,, e, a, che, un, di, uomo, lo, una, non -->
-  <forms unique="1342" /><!-- ., il, ,, la, e, a, ha, che, un, di, uomo, l', era, non, ho -->
+  <lemmas unique="967" /><!-- ., avere, il, essere, la, ,, e, a, che, un, di, uomo, lo, una, non -->
+  <forms unique="1341" /><!-- ., il, ,, la, e, a, ha, che, un, di, uomo, l', era, non, ho -->
   <fusions unique="73" /><!-- al, del, nel, all', alla, sul, della, sulla, aiutarla, sulle, nella, dei, alle, dalla, lasciami -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">310</tag><!-- brutto, bello, grande, contento, forte, simpatico, biondo, felice, giovane, strano -->
     <tag name="ADP">597</tag><!-- a, di, in, con, per, su, da, de, dopo, senza -->
-    <tag name="ADV">389</tag><!-- non, molto, ieri, poi, come, più, così, anche, invece, subito -->
-    <tag name="AUX">591</tag><!-- avere, essere, stare, volere, dovere, potere -->
+    <tag name="ADV">390</tag><!-- non, molto, ieri, poi, come, più, così, anche, invece, subito -->
+    <tag name="AUX">592</tag><!-- avere, essere, stare, volere, dovere, potere -->
     <tag name="CCONJ">277</tag><!-- e, ma, o, quindi, però, nè, cioè, en, et, perciò -->
     <tag name="DET">1023</tag><!-- il, la, un, una, lo, suo, mio, le, questo, i -->
     <tag name="INTJ">12</tag><!-- Aiuto, no, ah, andare, auch, bene, bè, grazie, mama, mio -->
-    <tag name="NOUN">1031</tag><!-- uomo, donna, parco, ragazza, ragazzo, giornale, spalla, amore, terra, momento -->
+    <tag name="NOUN">1030</tag><!-- uomo, donna, parco, ragazza, ragazzo, giornale, spalla, amore, terra, momento -->
     <tag name="NUM">18</tag><!-- due, 1, 10, 28, 30, 700, 9, 95, 99, catordieci -->
     <tag name="PRON">509</tag><!-- che, mi, si, la, lo, lui, lei, ci, me, quello -->
-    <tag name="PROPN">101</tag><!-- Marco, Luca, Giulio, Superuomo, Giorgia, Paola, Giacomo, matteo, Sophia, Bologna -->
-    <tag name="PUNCT">794</tag><!-- ., ,, », «, !, ..., :, ?, -, ; -->
+    <tag name="PROPN">100</tag><!-- Marco, Luca, Giulio, Superuomo, Giorgia, Paola, Giacomo, matteo, Sophia, Bologna -->
+    <tag name="PUNCT">795</tag><!-- ., ,, », «, !, ..., :, ?, -, ; -->
     <tag name="SCONJ">157</tag><!-- che, quando, perchè, mentre, come, se, perche, perché, dopo, que -->
     <tag name="SYM">1</tag><!-- % -->
-    <tag name="VERB">968</tag><!-- fare, dire, leggere, vedere, avere, pensare, portare, andare, gridare, essere -->
+    <tag name="VERB">967</tag><!-- fare, dire, leggere, vedere, avere, pensare, portare, andare, gridare, essere -->
     <tag name="X">6</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="37">
+  <feats unique="38">
     <feat name="Clitic" value="Yes" upos="PRON">266</feat><!-- mi, si, la, l', lo, gli, c', le, li, me -->
     <feat name="Definite" value="Def" upos="DET">605</feat><!-- il, la, l', le, i, lo, gli, l -->
     <feat name="Definite" value="Ind" upos="DET">225</feat><!-- un, una, un', uno -->
     <feat name="Degree" value="Abs" upos="ADJ,ADV">11</feat><!-- grandissimo, moltissimo, Carissimo, bellissima, fortissimo, furiosissimo, moltissomo, prestissimo, tentissimo -->
     <feat name="Degree" value="Cmp" upos="ADJ">1</feat><!-- migliora -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">989</feat><!-- la, una, donna, ragazza, le, sua, lei, l', terra, un' -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,PRON,VERB">1870</feat><!-- il, un, uomo, l', parco, ragazzo, detto, giornale, suo, lui -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADV,AUX,DET,NOUN,PRON,VERB">1870</feat><!-- il, un, uomo, l', parco, ragazzo, detto, giornale, suo, lui -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">11</feat><!-- farebbe, sarebbe, continuerei, dovrebbe, lascerebbe, piacerebbe, sarei -->
     <feat name="Mood" value="Imp" upos="VERB">14</feat><!-- lascia, scusi, aspetti, scusate, smetti, vada, vai -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">877</feat><!-- ha, era, ho, è, aveva, sono, stava, portava, avevo, ero -->
@@ -67,6 +67,7 @@
     <feat name="Tense" value="Imp" upos="AUX,VERB">390</feat><!-- era, aveva, stava, portava, avevo, ero, sembrava, leggeva, voleva, gridava -->
     <feat name="Tense" value="Past" upos="AUX,VERB">416</feat><!-- detto, visto, fatto, stato, pensato, sentito, seduto, cominciato, andato, gridato -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">513</feat><!-- ha, ho, è, sono, e, amo, lascia, piace, a, hai -->
+    <feat name="Typo" value="Yes" upos="ADJ,ADV,NOUN,SCONJ">6</feat><!-- per, base, co, unamora -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">918</feat><!-- ha, era, ho, è, aveva, sono, stava, portava, avevo, ero -->
     <feat name="VerbForm" value="Ger" upos="VERB">54</feat><!-- leggendo, portando, gridando, camminando, dicendo, facendo, GUARDANDO, ascoltando, aspettando, ballando -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">179</feat><!-- essere, fare, andare, leggere, aiutar, salvare, aiutare, aver, chiamare, avere -->
@@ -74,10 +75,10 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="40">
-    <dep name="acl">28</dep>
+    <dep name="acl">27</dep>
     <dep name="acl:relcl">83</dep>
-    <dep name="advcl">110</dep>
-    <dep name="advmod">375</dep>
+    <dep name="advcl">111</dep>
+    <dep name="advmod">376</dep>
     <dep name="amod">179</dep>
     <dep name="appos">14</dep>
     <dep name="aux">455</dep>
@@ -86,7 +87,7 @@
     <dep name="cc">273</dep>
     <dep name="ccomp">73</dep>
     <dep name="conj">302</dep>
-    <dep name="cop">134</dep>
+    <dep name="cop">135</dep>
     <dep name="csubj">12</dep>
     <dep name="dep">2</dep>
     <dep name="det">908</dep>
@@ -101,16 +102,16 @@
     <dep name="goeswith">6</dep>
     <dep name="iobj">59</dep>
     <dep name="mark">240</dep>
-    <dep name="nmod">116</dep>
+    <dep name="nmod">115</dep>
     <dep name="nsubj">392</dep>
     <dep name="nsubj:pass">1</dep>
     <dep name="nummod">12</dep>
-    <dep name="obj">446</dep>
-    <dep name="obl">396</dep>
+    <dep name="obj">445</dep>
+    <dep name="obl">395</dep>
     <dep name="obl:agent">2</dep>
     <dep name="orphan">2</dep>
     <dep name="parataxis">89</dep>
-    <dep name="punct">794</dep>
+    <dep name="punct">795</dep>
     <dep name="root">398</dep>
     <dep name="vocative">5</dep>
     <dep name="xcomp">118</dep>
