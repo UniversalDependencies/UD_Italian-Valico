@@ -31,19 +31,13 @@ The treebank development has also been possible thanks to Prof. Elisa Corino's (
 
 # Citation
 
-You are encouraged to cite the following paper:
+You are encouraged to cite the following article:
 
-@inproceedings{dinuovo2019towards,
-  title={Towards an Italian learner treebank in universal dependencies},
-  author={Di Nuovo, Elisa and Bosco, Cristina and Mazzei, Alessandro and Sanguinetti, Manuela},
-  booktitle={6th Italian Conference on Computational Linguistics, CLiC-it 2019},
-  volume={2481},
-  pages={1--6},
-  year={2019},
-  organization={CEUR-WS}
-}
+@article{di2022valico, title={VALICO-UD: Treebanking an Italian Learner Corpus in Universal Dependencies}, author={Di Nuovo, Elisa and Sanguinetti, Manuela and Mazzei, Alessandro and Corino, Elisa and Bosco, Cristina}, journal={IJCoL. Italian Journal of Computational Linguistics}, volume={8}, number={8-1}, year={2022}, publisher={Accademia University Press} }
 
 Other references:
+
+@inproceedings{dinuovo2019towards, title={Towards an Italian learner treebank in universal dependencies}, author={Di Nuovo, Elisa and Bosco, Cristina and Mazzei, Alessandro and Sanguinetti, Manuela}, booktitle={6th Italian Conference on Computational Linguistics, CLiC-it 2019}, volume={2481}, pages={1--6}, year={2019}, organization={CEUR-WS} }
 
 @inproceedings{dinuovo2020humanNLI,
   title={How good are humans at Native Language Identification? A case study on Italian L2 writings},
