@@ -2023,7 +2023,7 @@
 2	ma	ma	CCONJ	CC	_	4	discourse	_	_
 3	che	che	DET	DE	PronType=Exc	4	det	_	_
 4	umanità	umanità	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
-5	..	..	PUNCT	FS	_	4	punct	_	SpaceAfter=\n
+5	..	..	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
 
 # sent_id = 8-13_es-2
 # text = È una cosa incredibile ma vera non si sa che cosa possa succederè nel nostro mondo, tra più gente, più storie ridicole.
@@ -8648,4 +8648,3 @@
 26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
 27	farò	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	parataxis	_	_
 28	niente	niente	PRON	PI	PronType=Ind	27	obj	_	SpacesAfter=\n
-
