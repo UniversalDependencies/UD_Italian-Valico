@@ -649,7 +649,7 @@
 
 # sent_id = 3-13_fr-3
 # text = La natura del parco mi sembrò più verde, i fiori più aperti, gli uccelli cantarono.
-# err = La natura del parco mi <IVT><i>sembra</i><c>sembrò</c></IVT> <SIM><i>piu</i><c>più</c></SIM> verde, i fiori <SIM><i>piu</i><c>più</c></SIM> <IJG><i>aperte</i><c>aperti</c></IJG>, <IDG><i>le</i><c>gli</c></IDG> <ING><SB><i>uccele</i><c>uccelle</c></SB><i>uccelle</i><c>uccelli</c></ING> cantarono.
+# err = La natura del parco mi <IVT><i>sembra</i><c>sembrò</c></IVT> <SIM><i>piu</i><c>più</c></SIM> verde, i fiori <SIM><i>piu</i><c>più</c></SIM> <IJG><i>aperte</i><c>aperti</c></IJG>, <IDGcascade><i>le</i><c>gli</c></IDGcascade> <ING><SB><i>uccele</i><c>uccelle</c></SB><i>uccelle</i><c>uccelli</c></ING> cantarono.
 1	La	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	natura	natura	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	del	_	_	_	_	_	_	_	_
