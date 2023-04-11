@@ -4099,7 +4099,7 @@
 
 # sent_id = 18-10_en-1
 # text = GUARDANDO IN ALTO HA VISTO UN UOMO MUSCOLOSO CON UN TATUAGGIO SUL BRACCIO CHE PORTAVA UNA DONNA SULLE SPALLE; LA DONNA URLAVA E GRIDAVA, E CERCAVA DI SCENDERE GIÙ.
-# err = GUARDANDO IN ALTO HA VISTO UN UOMO MUSCOLOSO CON UN <SB><i>TATTUAGGIO</i><c>TATUAGGIO</c></SB> <IDG><i>SULLA</i><c>SUL</c></IDG> <INN><i>BRACCIA</i><c>BRACCIO</c></INN> CHE PORTAVA UNA DONNA SULLE SPALLE<SPR><i>-</i><c>;</c></SPR> LA DONNA URLAVA E GRIDAVA, E CERCAVA DI SCENDERE <SIM><i>GIU</i><c>GIÙ</c></SIM>.
+# err = GUARDANDO IN ALTO HA VISTO UN UOMO MUSCOLOSO CON UN <SB><i>TATTUAGGIO</i><c>TATUAGGIO</c></SB> <IDGcascade><i>SULLA</i><c>SUL</c></IDGcascade> <INN><i>BRACCIA</i><c>BRACCIO</c></INN> CHE PORTAVA UNA DONNA SULLE SPALLE<SPR><i>-</i><c>;</c></SPR> LA DONNA URLAVA E GRIDAVA, E CERCAVA DI SCENDERE <SIM><i>GIU</i><c>GIÙ</c></SIM>.
 1	GUARDANDO	guardare	VERB	V	VerbForm=Ger	5	advcl	_	_
 2	IN	in	ADP	E	_	3	case	_	_
 3	ALTO	alto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
@@ -4262,7 +4262,7 @@
 
 # sent_id = 19-06_en-3
 # text = Ma il suo ragazzo non l'ha ascoltata; ha detto: "Io sono il tuo ragazzo e non continuerei a leggere il giornale mentre un uomo strano dimostra quel tipo di atteggiamento."
-# err = Ma il suo ragazzo non l'ha <IVG><i>ascoltato</i><c>ascoltata</c></IVG>; ha detto: <SPR><i>'</i><c>"</c></SPR>Io sono il tuo ragazzo e non continuerei <MT><i>_</i><c>a</c></MT> leggere il giornale mentre <IDG><i>un'</i><c>un </c></IDG><SN><i>uoma</i><c>uomo</c></SN> strano dimostra quel tipo <UD><i>del</i><c>di</c></UD> <SB><i>attegiamento</i><c>atteggiamento</c></SB>.<SPM><i>_</i><c>"</c></SPM>
+# err = Ma il suo ragazzo non l'ha <IVG><i>ascoltato</i><c>ascoltata</c></IVG>; ha detto: <SPR><i>'</i><c>"</c></SPR>Io sono il tuo ragazzo e non continuerei <MT><i>_</i><c>a</c></MT> leggere il giornale mentre <IDGcascade><i>un'</i><c>un </c></IDGcascade><SN><i>uoma</i><c>uomo</c></SN> strano dimostra quel tipo <UD><i>del</i><c>di</c></UD> <SB><i>attegiamento</i><c>atteggiamento</c></SB>.<SPM><i>_</i><c>"</c></SPM>
 1	Ma	ma	CCONJ	CC	_	8	cc	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
