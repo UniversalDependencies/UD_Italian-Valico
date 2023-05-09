@@ -642,7 +642,7 @@
 
 # sent_id = 3-13_fr-3
 # text = La natura del parco mi sembra piu verde, i fiori piu aperte, le uccele cantarono.
-# err = La natura del parco mi <IVT><i>sembra</i><c>sembrò</c></IVT> <SIM><i>piu</i><c>più</c></SIM> verde, i fiori <SIM><i>piu</i><c>più</c></SIM> <IJG><i>aperte</i><c>aperti</c></IJG>, <IDG><i>le</i><c>gli</c></IDG> <ING><SB><i>uccele</i><c>uccelle</c></SB><i>uccelle</i><c>uccelli</c></ING> cantarono.
+# err = La natura del parco mi <IVT><i>sembra</i><c>sembrò</c></IVT> <SIM><i>piu</i><c>più</c></SIM> verde, i fiori <SIM><i>piu</i><c>più</c></SIM> <IJG><i>aperte</i><c>aperti</c></IJG>, <IDGcascade><i>le</i><c>gli</c></IDGcascade> <ING><SB><i>uccele</i><c>uccelle</c></SB><i>uccelle</i><c>uccelli</c></ING> cantarono.
 1	La	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	natura	natura	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	del	_	_	_	_	_	_	_	_
@@ -2023,7 +2023,7 @@
 2	ma	ma	CCONJ	CC	_	4	discourse	_	_
 3	che	che	DET	DE	PronType=Exc	4	det	_	_
 4	umanità	umanità	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
-5	..	..	PUNCT	FS	_	4	punct	_	SpaceAfter=\n
+5	..	..	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
 
 # sent_id = 8-13_es-2
 # text = È una cosa incredibile ma vera non si sa che cosa possa succederè nel nostro mondo, tra più gente, più storie ridicole.
@@ -3982,7 +3982,7 @@
 1	SEDUTO	sedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
 2	SU	su	ADP	E	_	4	case	_	_
 3	UNA	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	SEDILE	sedile	NOUN	S	Number=Sing	1	obl	_	_
+4	SEDILE	sedile	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
 5	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	obj	_	SpaceAfter=No
 6	ERA	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	UN	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -4060,7 +4060,7 @@
 
 # sent_id = 18-10_en-1
 # text = GUARDANDO IN ALTO HA VISTO UN UOMO MUSCOLOSO CON UN TATTUAGGIO SULLA BRACCIA CHE PORTAVA UNA DONNA SULLE SPALLE- LA DONNA URLAVA E GRIDAVA, E CERCAVA DI SCENDERE GIU.
-# err = GUARDANDO IN ALTO HA VISTO UN UOMO MUSCOLOSO CON UN <SB><i>TATTUAGGIO</i><c>TATUAGGIO</c></SB> <IDG><i>SULLA</i><c>SUL</c></IDG> <INN><i>BRACCIA</i><c>BRACCIO</c></INN> CHE PORTAVA UNA DONNA SULLE SPALLE<SPR><i>-</i><c>;</c></SPR> LA DONNA URLAVA E GRIDAVA, E CERCAVA DI SCENDERE <SIM><i>GIU</i><c>GIÙ</c></SIM>.
+# err = GUARDANDO IN ALTO HA VISTO UN UOMO MUSCOLOSO CON UN <SB><i>TATTUAGGIO</i><c>TATUAGGIO</c></SB> <IDGcascade><i>SULLA</i><c>SUL</c></IDGcascade> <INN><i>BRACCIA</i><c>BRACCIO</c></INN> CHE PORTAVA UNA DONNA SULLE SPALLE<SPR><i>-</i><c>;</c></SPR> LA DONNA URLAVA E GRIDAVA, E CERCAVA DI SCENDERE <SIM><i>GIU</i><c>GIÙ</c></SIM>.
 1	GUARDANDO	guardare	VERB	V	VerbForm=Ger	5	advcl	_	_
 2	IN	in	ADP	E	_	3	case	_	_
 3	ALTO	alto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
@@ -4224,7 +4224,7 @@
 
 # sent_id = 19-06_en-3
 # text = Ma il suo ragazzo non l'ha ascoltato; ha detto: 'Io sono il tuo ragazzo e non continuerei leggere il giornale mentre un'uoma strano dimostra quel tipo del attegiamento.
-# err = Ma il suo ragazzo non l'ha <IVG><i>ascoltato</i><c>ascoltata</c></IVG>; ha detto: <SPR><i>'</i><c>"</c></SPR>Io sono il tuo ragazzo e non continuerei <MT><i>_</i><c>a</c></MT> leggere il giornale mentre <IDG><i>un'</i><c>un </c></IDG><SN><i>uoma</i><c>uomo</c></SN> strano dimostra quel tipo <UD><i>del</i><c>di</c></UD> <SB><i>attegiamento</i><c>atteggiamento</c></SB>.<SPM><i>_</i><c>"</c></SPM>
+# err = Ma il suo ragazzo non l'ha <IVG><i>ascoltato</i><c>ascoltata</c></IVG>; ha detto: <SPR><i>'</i><c>"</c></SPR>Io sono il tuo ragazzo e non continuerei <MT><i>_</i><c>a</c></MT> leggere il giornale mentre <IDGcascade><i>un'</i><c>un </c></IDGcascade><SN><i>uoma</i><c>uomo</c></SN> strano dimostra quel tipo <UD><i>del</i><c>di</c></UD> <SB><i>attegiamento</i><c>atteggiamento</c></SB>.<SPM><i>_</i><c>"</c></SPM>
 1	Ma	ma	CCONJ	CC	_	8	cc	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
