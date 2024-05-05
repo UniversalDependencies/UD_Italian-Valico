@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Italian-Valico:
-commit e71ffb109a136e8e482ad9c42c8ef1b1f94561fb
+commit 5bcdaf25233bee506183d975abf3533ac3e46302
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 10:53:30 2023 +0200
+Date:   Mon Nov 6 12:15:29 2023 +0100
 Size: counted 6784 of 6784 words (nodes).
 Size: min(0, log((N/1000)**2)) = 3.8291337969792.
 Size: maximum value 13.815511 is for 1000000 words or more.
