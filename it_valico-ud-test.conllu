@@ -839,7 +839,7 @@
 7	gentile	gentile	ADJ	A	Number=Sing	5	conj	_	_
 8	ma	ma	CCONJ	CC	_	21	cc	_	_
 9-10	al	_	_	_	_	_	_	_	_
-9	a	a	ADP	E	_	21	advmod	_	_
+9	a	a	ADV	E	ExtPos=ADP	21	advmod	_	_
 10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	fixed	_	_
 11	invece	invece	ADV	B	_	9	fixed	_	SpaceAfter=No
 12	,	,	PUNCT	FF	_	15	punct	_	_
@@ -1581,7 +1581,7 @@
 # sent_id = 8-04_es-2
 # text = Va bene continuerò, è stato sufficiente di scrivire sul carattere di questo ragazzo che alla fine non fa un'altra cosa che lggere il giornale in cerca di lavoro, proprio stupido, chi cerca lavoro in questi tempi?
 # err = Va bene continuerò, è stato sufficiente <UT><i>di</i><c>_</c></UT> scrivire <RT><i>sul</i><c>del</c></RT> carattere di questo ragazzo che alla fine non fa un'altra cosa che <SV><i>lggere</i><c>leggere</c></SV> il giornale in cerca di lavoro<SPR><i>,</i><c>;</c></SPR> proprio stupido, chi cerca lavoro in questi tempi?
-1	Va	andare	INTJ	I	_	3	discourse	_	_
+1	Va	andare	INTJ	I	ExtPos=VERB	3	discourse	_	_
 2	bene	bene	INTJ	I	_	1	fixed	_	_
 3	continuerò	continuare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	3	punct	_	_
@@ -1738,7 +1738,7 @@
 54	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	56	det	_	_
 55	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 56	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	53	obj	_	_
-57	come	come	SCONJ	CS	_	60	mark	_	_
+57	come	come	SCONJ	CS	ExtPos=SCONJ	60	mark	_	_
 58	se	se	SCONJ	CS	_	57	fixed	_	_
 59	volesse	volere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	60	aux	_	_
 60-61	liberarsi	_	_	_	_	_	_	_	_
@@ -1787,7 +1787,7 @@
 3	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	a	a	ADP	E	_	5	mark	_	_
 5	seguire	seguire	VERB	V	VerbForm=Inf	3	xcomp	_	_
-6	fino	fino	ADV	B	_	9	case	_	_
+6	fino	fino	ADV	B	ExtPos=ADV	9	case	_	_
 7-8	alla	_	_	_	_	_	_	_	_
 7	a	a	ADP	E	_	6	fixed	_	_
 8	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -1866,7 +1866,7 @@
 78	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	80	obj	_	_
 79	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	80	aux	_	_
 80	attaccato	attaccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
-81	a	a	SCONJ	CS	_	88	mark	_	_
+81	a	a	SCONJ	CS	ExtPos=ADP	88	mark	_	_
 82	tal	tale	SCONJ	CS	_	81	fixed	_	_
 83	punto	punto	SCONJ	CS	_	81	fixed	_	_
 84	che	che	SCONJ	CS	_	81	fixed	_	_
@@ -1985,7 +1985,7 @@
 28	negozio	negozio	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
 29	di	di	ADP	E	_	30	case	_	_
 30	scarpe	scarpa	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	_
-31	vecino	vecino	ADP	E	_	34	case	_	_
+31	vecino	vecino	ADP	E	ExtPos=ADJ	34	case	_	_
 32-33	al	_	_	_	_	_	_	_	_
 32	a	a	ADP	E	_	31	fixed	_	_
 33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
@@ -2002,7 +2002,7 @@
 43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 44	10	10	NUM	N	NumType=Card	45	nummod	_	SpaceAfter=No
 45	%	%	SYM	SYM	_	41	nmod	_	_
-46	a	a	SCONJ	CS	_	54	mark	_	_
+46	a	a	SCONJ	CS	ExtPos=ADP	54	mark	_	_
 47	tal	tale	SCONJ	CS	_	46	fixed	_	_
 48	punto	punto	SCONJ	CS	_	46	fixed	_	_
 49	che	che	SCONJ	CS	_	46	fixed	_	_
@@ -2345,7 +2345,7 @@
 16	alzato	alzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
 17	senza	senza	ADP	E	_	18	case	_	_
 18	sforzo	sforzo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
-19	come	come	SCONJ	CS	_	24	mark	_	_
+19	come	come	SCONJ	CS	ExtPos=SCONJ	24	mark	_	_
 20	si	si	SCONJ	CS	_	19	fixed	_	_
 21	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
 22	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	cop	_	_
@@ -2384,7 +2384,7 @@
 # sent_id = 10-06_es-1
 # text = mama mia, gente pazza!
 # err = <SOS><SB><i>mama</i><c>mamma</c></SB><i>mamma</i><c>Mamma</c></SOS> mia, gente pazza!
-1	mama	mama	INTJ	I	_	4	discourse	_	_
+1	mama	mama	INTJ	I	ExtPos=NOUN	4	discourse	_	_
 2	mia	mio	INTJ	I	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	FF	_	4	punct	_	_
 4	gente	gente	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
@@ -3165,7 +3165,7 @@
 # sent_id = 13-04_es-2
 # text = Anche se ero distratto, como avevo detto prima ero assorto per quello che mi accadeva un quel momento, ho alzato lo sguardo en sono restato intontito (un rumore mi aveva spinto a farne questo) per la esatteza del relato devo descrivere quello che ho visto: Un uomo portava una donna sulle spale e questa quiedeva aiuto.
 # err = Anche se ero distratto, <SC><i>como</i><c>come</c></SC> avevo detto prima<SPM><i>_</i><c>,</c></SPM> ero assorto <RT><i>per</i><c>in</c></RT> quello che mi accadeva <ST><i>un</i><c>in</c></ST> quel momento, ho alzato lo sguardo <SC><i>en</i><c>e</c></SC> sono restato intontito (un rumore mi aveva spinto a <UA><i>farne</i><c>fare</c></UA> questo) per la esatteza del <FNL><i>relato</i><c>racconto</c></FNL> devo descrivere quello che ho visto: <SDS><i>Un</i><c>un</c></SDS> uomo portava una donna sulle <SB><i>spale</i><c>spalle</c></SB> e questa <SVL><i>quiedeva</i><c>chiedeva</c></SVL> aiuto.
-1	Anche	anche	SCONJ	CS	_	4	mark	_	_
+1	Anche	anche	SCONJ	CS	ExtPos=SCONJ	4	mark	_	_
 2	se	se	SCONJ	CS	_	1	fixed	_	_
 3	ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
 4	distratto	distrarre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	SpaceAfter=No
@@ -3666,11 +3666,11 @@
 5	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 16-01_en-3
-# text = ﻿Ieri al parco un'uomo e la sua sorella avete avuto un argomento su la sua nuovo ragazzo.
+# text = Ieri al parco un'uomo e la sua sorella avete avuto un argomento su la sua nuovo ragazzo.
 # err = Ieri al parco <IDG><i>un'</i><c>un </c></IDG>uomo e <UD><i>la</i><c>_</c></UD> sua sorella <IVP><i>avete avuto</i><c>hanno avuto</c></IVP> <IDGcascade><RNL><i>un argomento</i><c>un discussione</c></RNL><i>un discussione</i><c>una discussione</c></IDGcascade> <IDG><STT><i>su la</i><c>sulla</c></STT><i>sulla</i><c>sul</c></IDG> <IDG><i>sua</i><c>suo</c></IDG> nuovo ragazzo.
-1	﻿Ieri	﻿ieri	ADV	B	_	12	advmod	_	_
+1	Ieri	ieri	ADV	B	_	12	advmod	_	_
 2-3	al	_	_	_	_	_	_	_	_
-2	a	a	ADP	E	_	1	fixed	_	_
+2	a	a	ADP	E	_	4	case	_	_
 3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	parco	parco	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
 5	un'	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
@@ -3910,7 +3910,7 @@
 2	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	donna	donna	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	3	punct	_	_
-5	invece	invece	ADV	B	_	7	mark	_	_
+5	invece	invece	ADV	B	ExtPos=ADV	7	mark	_	_
 6	di	di	ADP	E	_	5	fixed	_	_
 7-8	ringraziarlo	_	_	_	_	_	_	_	_
 7	ringraziar	ringraziare	VERB	V	VerbForm=Inf	3	acl	_	_
@@ -4546,7 +4546,7 @@
 # err = Ho camminato <RT><i>sopra</i><c>verso</c></RT> <UTcascade><i>all'</i><c>l'</c></UTcascade>uomo e richiesto che <FAcascade><RV><IVM><i>l'ha posata</i><c>l'posasse</c></IVM><i>l'posasse</i><c>l'lasciasse</c></RV><i>l'lasciasse</i><c>la lasciasse</c></FAcascade>.
 1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	camminato	camminare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-3	sopra	sopra	ADP	E	_	6	case	_	_
+3	sopra	sopra	ADP	E	ExtPos=ADP	6	case	_	_
 4-5	all'	_	_	_	_	_	_	_	SpaceAfter=No
 4	a	a	ADP	E	_	3	fixed	_	_
 5	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -4562,7 +4562,7 @@
 # sent_id = 21-05_en-2
 # text = Non appena ha lasciato va l'ho perforato nella faccia e l'ha bussato al suolo.
 # err = Non appena <MA><i>ha</i><c>l'ha</c></MA> <IVG><i>lasciato</i><c>lasciata</c></IVG> <IVM><i>va</i><c>andare</c></IVM><SPM><i>_</i><c>,</c></SPM> l'ho <RV><i>perforato</i><c>colpito</c></RV> nella faccia e l'<IVP><i>ha</i><c>ho</c></IVP> <RV><i>bussato</i><c>buttato</c></RV> al suolo.
-1	Non	non	SCONJ	CS	_	4	mark	_	_
+1	Non	non	SCONJ	CS	ExtPos=ADV	4	mark	_	_
 2	appena	appena	SCONJ	CS	_	1	fixed	_	_
 3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
@@ -4693,7 +4693,7 @@
 # text = Sono cerca della città, ci sono due ragazzi e una ragazza.
 # err = Sono <RTcascade><RTL><i>cerca della</i><c>vicino della</c></RTL><i>vicino della</i><c>vicino alla</c></RTcascade> città, ci sono due ragazzi e una ragazza.
 1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-2	cerca	cerca	ADP	E	_	5	case	_	_
+2	cerca	cerca	ADP	E	ExtPos=VERB	5	case	_	_
 3-4	della	_	_	_	_	_	_	_	_
 3	di	di	ADP	E	_	2	fixed	_	_
 4	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -5069,7 +5069,7 @@
 3	su	su	ADP	E	_	5	case	_	_
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	banco	banco	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
-6	a	a	ADP	E	_	10	case	_	_
+6	a	a	ADP	E	ExtPos=ADP	10	case	_	_
 7	proxima	proxima	ADP	E	_	6	fixed	_	_
 8-9	della	_	_	_	_	_	_	_	_
 8	di	di	ADP	E	_	6	fixed	_	_
@@ -6081,7 +6081,7 @@
 6	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
-9	dietro	dietro	ADV	B	_	11	case	_	_
+9	dietro	dietro	ADP	E	ExtPos=ADP	11	case	_	_
 10	di	di	ADP	E	_	9	fixed	_	_
 11	se	se	PRON	PE	Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
 12	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
@@ -6289,7 +6289,7 @@
 5	lanciato	lanciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	su	su	ADP	E	_	7	case	_	_
 7	Luca	Luca	PROPN	SP	_	5	obl	_	_
-8	così	così	SCONJ	CS	_	10	mark	_	_
+8	così	così	SCONJ	CS	ExtPos=ADV	10	mark	_	_
 9	che	che	SCONJ	CS	_	8	fixed	_	_
 10	cadeva	cadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
 11-12	sulla	_	_	_	_	_	_	_	_
@@ -7221,7 +7221,7 @@
 6	attrarre	attrarre	VERB	V	VerbForm=Inf	4	acl	_	_
 7	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
-9	tale	tale	ADJ	A	Number=Sing|PronType=Dem	11	mark	_	_
+9	tale	tale	SCONJ	CS	ExtPos=ADJ|Number=Sing|PronType=Dem	11	mark	_	_
 10	come	come	SCONJ	CS	_	9	fixed	_	_
 11	camminare	camminare	VERB	V	VerbForm=Inf	2	advcl	_	_
 12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -7285,7 +7285,7 @@
 6	a	a	ADP	E	_	8	case	_	_
 7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	parco	parco	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
-9	vicino	vicino	ADP	E	_	13	case	_	_
+9	vicino	vicino	ADP	E	ExtPos=ADP	13	case	_	_
 10-11	al	_	_	_	_	_	_	_	_
 10	a	a	ADP	E	_	9	fixed	_	_
 11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -7347,7 +7347,7 @@
 7	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
 8	«	«	PUNCT	FB	_	15	punct	_	SpaceAfter=No
 9	99	99	NUM	N	NumType=Card	15	nsubj	_	_
-10	per	per	ADP	E	_	9	amod	_	LOC=adj
+10	per	per	ADP	E	ExtPos=ADP	9	amod	_	LOC=adj
 11	cento	cento	NUM	N	NumType=Card	10	fixed	_	_
 12-13	degli	_	_	_	_	_	_	_	_
 12	di	di	ADP	E	_	14	case	_	_
@@ -7356,7 +7356,7 @@
 15	trovare	trovare	VERB	V	VerbForm=Inf	7	parataxis	_	_
 16	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	amore	amore	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
-18	prima	prima	ADV	B	_	21	case	_	_
+18	prima	prima	ADV	B	ExtPos=ADV	21	case	_	_
 19	di	di	ADP	E	_	18	fixed	_	_
 20	28	28	NUM	N	NumType=Card	21	nummod	_	_
 21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
@@ -8222,7 +8222,7 @@
 6	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	FF	_	15	punct	_	_
 8	e	e	CCONJ	CC	_	15	cc	_	_
-9	davanti	davanti	ADP	E	_	13	case	_	_
+9	davanti	davanti	ADP	E	ExtPos=ADP	13	case	_	_
 10-11	ai	_	_	_	_	_	_	_	_
 10	a	a	ADP	E	_	9	fixed	_	_
 11	i	i	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
@@ -8495,7 +8495,7 @@
 18	,	,	PUNCT	FF	_	28	punct	_	_
 19	e	e	CCONJ	CC	_	28	cc	_	SpaceAfter=No
 20	,	,	PUNCT	FF	_	19	punct	_	_
-21	prima	prima	ADV	B	_	23	mark	_	_
+21	prima	prima	ADV	B	ExtPos=ADV	23	mark	_	_
 22	d'	di	ADP	E	_	21	fixed	_	SpaceAfter=No
 23	andare	andare	VERB	V	VerbForm=Inf	28	advcl	_	_
 24	via	via	ADV	B	_	23	advmod	_	SpaceAfter=No
@@ -8648,3 +8648,4 @@
 26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
 27	farò	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	parataxis	_	_
 28	niente	niente	PRON	PI	PronType=Ind	27	obj	_	SpacesAfter=\n
+
