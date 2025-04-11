@@ -39,7 +39,7 @@
     <feat name="Definite" value="Ind" upos="DET">225</feat><!-- un, una, un', uno -->
     <feat name="Degree" value="Abs" upos="ADJ,ADV">11</feat><!-- grandissimo, moltissimo, Carissimo, bellissima, fortissimo, furiosissimo, moltissomo, prestissimo, tentissimo -->
     <feat name="Degree" value="Cmp" upos="ADJ">1</feat><!-- migliora -->
-    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">989</feat><!-- la, una, donna, ragazza, le, sua, lei, l', terra, un' -->
+    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">990</feat><!-- la, una, donna, ragazza, le, sua, lei, l', terra, un' -->
     <feat name="Gender" value="Masc" upos="ADJ,ADV,AUX,DET,NOUN,PRON,VERB">1870</feat><!-- il, un, uomo, l', parco, ragazzo, detto, giornale, suo, lui -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">11</feat><!-- farebbe, sarebbe, continuerei, dovrebbe, lascerebbe, piacerebbe, sarei -->
     <feat name="Mood" value="Imp" upos="VERB">14</feat><!-- lascia, scusi, aspetti, scusate, smetti, vada, vai -->
