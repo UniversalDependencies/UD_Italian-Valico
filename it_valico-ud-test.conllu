@@ -839,7 +839,7 @@
 7	gentile	gentile	ADJ	A	Number=Sing	5	conj	_	_
 8	ma	ma	CCONJ	CC	_	21	cc	_	_
 9-10	al	_	_	_	_	_	_	_	_
-9	a	a	ADV	E	ExtPos=ADP	21	advmod	_	_
+9	a	a	ADV	B	ExtPos=ADV	21	advmod	_	_
 10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	fixed	_	_
 11	invece	invece	ADV	B	_	9	fixed	_	SpaceAfter=No
 12	,	,	PUNCT	FF	_	15	punct	_	_
@@ -1985,7 +1985,7 @@
 28	negozio	negozio	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
 29	di	di	ADP	E	_	30	case	_	_
 30	scarpe	scarpa	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	_
-31	vecino	vecino	ADP	E	ExtPos=ADJ	34	case	_	_
+31	vecino	vecino	ADP	E	ExtPos=ADP	34	case	_	_
 32-33	al	_	_	_	_	_	_	_	_
 32	a	a	ADP	E	_	31	fixed	_	_
 33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
@@ -7221,7 +7221,7 @@
 6	attrarre	attrarre	VERB	V	VerbForm=Inf	4	acl	_	_
 7	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
-9	tale	tale	SCONJ	CS	ExtPos=ADJ|Number=Sing|PronType=Dem	11	mark	_	_
+9	tale	tale	SCONJ	CS	ExtPos=SCONJ	11	mark	_	_
 10	come	come	SCONJ	CS	_	9	fixed	_	_
 11	camminare	camminare	VERB	V	VerbForm=Inf	2	advcl	_	_
 12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
