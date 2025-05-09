@@ -15,30 +15,34 @@
   <fusions unique="73" /><!-- al, del, nel, all', alla, sul, della, sulla, aiutarla, sulle, nella, dei, alle, dalla, lasciami -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">310</tag><!-- brutto, bello, grande, contento, forte, simpatico, biondo, felice, giovane, strano -->
+    <tag name="ADJ">309</tag><!-- brutto, bello, grande, contento, forte, simpatico, biondo, felice, giovane, strano -->
     <tag name="ADP">597</tag><!-- a, di, in, con, per, su, da, de, dopo, senza -->
-    <tag name="ADV">390</tag><!-- non, molto, ieri, poi, come, più, così, anche, invece, subito -->
+    <tag name="ADV">391</tag><!-- non, molto, ieri, poi, come, più, così, anche, invece, subito -->
     <tag name="AUX">592</tag><!-- avere, essere, stare, volere, dovere, potere -->
     <tag name="CCONJ">277</tag><!-- e, ma, o, quindi, però, nè, cioè, en, et, perciò -->
     <tag name="DET">1023</tag><!-- il, la, un, una, lo, suo, mio, le, questo, i -->
-    <tag name="INTJ">12</tag><!-- Aiuto, no, ah, andare, auch, bene, bè, grazie, mama, mio -->
+    <tag name="INTJ">10</tag><!-- Aiuto, no, ah, auch, bè, grazie, mama, mio -->
     <tag name="NOUN">1030</tag><!-- uomo, donna, parco, ragazza, ragazzo, giornale, spalla, amore, terra, momento -->
     <tag name="NUM">18</tag><!-- due, 1, 10, 28, 30, 700, 9, 95, 99, catordieci -->
     <tag name="PRON">509</tag><!-- che, mi, si, la, lo, lui, lei, ci, me, quello -->
     <tag name="PROPN">100</tag><!-- Marco, Luca, Giulio, Superuomo, Giorgia, Paola, Giacomo, matteo, Sophia, Bologna -->
     <tag name="PUNCT">795</tag><!-- ., ,, », «, !, ..., :, ?, -, ; -->
-    <tag name="SCONJ">157</tag><!-- che, quando, perchè, mentre, come, se, perche, perché, dopo, que -->
+    <tag name="SCONJ">158</tag><!-- che, quando, perchè, mentre, come, se, perche, perché, dopo, que -->
     <tag name="SYM">1</tag><!-- % -->
-    <tag name="VERB">967</tag><!-- fare, dire, leggere, vedere, avere, pensare, portare, andare, gridare, essere -->
+    <tag name="VERB">968</tag><!-- fare, dire, leggere, vedere, avere, pensare, andare, portare, gridare, essere -->
     <tag name="X">6</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="38">
+  <feats unique="42">
     <feat name="Clitic" value="Yes" upos="PRON">266</feat><!-- mi, si, la, l', lo, gli, c', le, li, me -->
     <feat name="Definite" value="Def" upos="DET">605</feat><!-- il, la, l', le, i, lo, gli, l -->
     <feat name="Definite" value="Ind" upos="DET">225</feat><!-- un, una, un', uno -->
     <feat name="Degree" value="Abs" upos="ADJ,ADV">11</feat><!-- grandissimo, moltissimo, Carissimo, bellissima, fortissimo, furiosissimo, moltissomo, prestissimo, tentissimo -->
     <feat name="Degree" value="Cmp" upos="ADJ">1</feat><!-- migliora -->
+    <feat name="ExtPos" value="ADP" upos="ADP,SCONJ">10</feat><!-- a, cerca, davanti, dietro, per, sopra, vecino, vicino -->
+    <feat name="ExtPos" value="ADV" upos="ADV,SCONJ">7</feat><!-- prima, Non, a, così, fino, invece -->
+    <feat name="ExtPos" value="INTJ" upos="INTJ">1</feat><!-- mama -->
+    <feat name="ExtPos" value="SCONJ" upos="SCONJ">4</feat><!-- come, Anche, tale -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">990</feat><!-- la, una, donna, ragazza, le, sua, lei, l', terra, un' -->
     <feat name="Gender" value="Masc" upos="ADJ,ADV,AUX,DET,NOUN,PRON,VERB">1870</feat><!-- il, un, uomo, l', parco, ragazzo, detto, giornale, suo, lui -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">11</feat><!-- farebbe, sarebbe, continuerei, dovrebbe, lascerebbe, piacerebbe, sarei -->
@@ -46,7 +50,7 @@
     <feat name="Mood" value="Ind" upos="AUX,VERB">877</feat><!-- ha, era, ho, è, aveva, sono, stava, portava, avevo, ero -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">17</feat><!-- fosse, abbia, avesse, desse, dicesse, dovesse, dovessi, lasciasse, possa, potesse -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">319</feat><!-- le, i, sono, gli, li, spalle, occhiali, erano, suoi, parole -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,VERB">3637</feat><!-- il, la, ha, un, uomo, l', era, ho, una, donna -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,VERB">3636</feat><!-- il, la, ha, un, uomo, l', era, ho, una, donna -->
     <feat name="NumType" value="Card" upos="NUM">17</feat><!-- due, 1, 10, 28, 30, 700, 9, 95, 99, catordieci -->
     <feat name="NumType" value="Ord" upos="ADJ">2</feat><!-- prima, ventottesimo -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">299</feat><!-- ho, mi, me, sono, avevo, io, ero, amo, pensavo, stavo -->
@@ -55,7 +59,7 @@
     <feat name="Polarity" value="Neg" upos="ADV,INTJ">3</feat><!-- no -->
     <feat name="Poss" value="Yes" upos="DET">104</feat><!-- suo, sua, mio, mia, suoi, miei, nostra, nostro, sue, tuo -->
     <feat name="PronType" value="Art" upos="DET">830</feat><!-- il, la, un, una, l', le, i, un', lo, gli -->
-    <feat name="PronType" value="Dem" upos="ADJ,DET,PRON">64</feat><!-- questo, quello, questa, quel, quella, queste, Quest', ciò, eso, questi -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">63</feat><!-- questo, quello, questa, quel, quella, queste, Quest', ciò, eso, questi -->
     <feat name="PronType" value="Exc" upos="DET">1</feat><!-- che -->
     <feat name="PronType" value="Ind" upos="DET,PRON">78</feat><!-- niente, altro, qualcosa, altra, molti, ogni, tutti, delle, nessuno, qualche -->
     <feat name="PronType" value="Int" upos="DET,PRON">14</feat><!-- che, cosa, chi, cose -->
@@ -78,12 +82,12 @@
     <dep name="acl">27</dep>
     <dep name="acl:relcl">83</dep>
     <dep name="advcl">111</dep>
-    <dep name="advmod">376</dep>
+    <dep name="advmod">377</dep>
     <dep name="amod">179</dep>
     <dep name="appos">14</dep>
     <dep name="aux">455</dep>
     <dep name="aux:pass">2</dep>
-    <dep name="case">494</dep>
+    <dep name="case">495</dep>
     <dep name="cc">273</dep>
     <dep name="ccomp">73</dep>
     <dep name="conj">302</dep>
@@ -97,7 +101,7 @@
     <dep name="dislocated">3</dep>
     <dep name="expl">98</dep>
     <dep name="expl:impers">7</dep>
-    <dep name="fixed">30</dep>
+    <dep name="fixed">28</dep>
     <dep name="flat:name">3</dep>
     <dep name="goeswith">6</dep>
     <dep name="iobj">59</dep>
