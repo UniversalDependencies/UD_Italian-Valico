@@ -198,7 +198,7 @@
 27	,	,	PUNCT	FF	_	25	punct	_	_
 28	con	con	ADP	E	_	30	case	_	_
 29	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+30	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
 31	schizzato	schizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
 32-33	sul	_	_	_	_	_	_	_	_
 32	su	su	ADP	E	_	34	case	_	_
@@ -1307,7 +1307,7 @@
 # sent_id = 7-05_es-2
 # text = Mi ha sorpreso la forma come l'ho colpito.
 # err = Mi ha sorpreso <IDGcascade><RN><i>la forma</i><c>la modo</c></RN><i>la modo</i><c>il modo</c></IDGcascade> <MT><i>_</i><c>di</c></MT> come l'ho colpito.
-1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
 2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	sorpreso	sorprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -1315,7 +1315,7 @@
 6	come	come	ADV	B	_	9	advmod	_	_
 7	l'	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
 8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
-9	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+9	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	SpaceAfter=No
 10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = 7-06_es-2
@@ -1510,7 +1510,7 @@
 83	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	80	acl:relcl	_	SpaceAfter=No
 84	,	,	PUNCT	FF	_	89	punct	_	_
 85	ma	ma	CCONJ	CC	_	89	cc	_	_
-86	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	89	obj	_	_
+86	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	89	dislocated	_	_
 87	non	non	ADV	BN	PronType=Neg	89	advmod	_	_
 88	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	89	obj	_	_
 89	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	63	conj	_	_
@@ -1996,7 +1996,7 @@
 38	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	aux	_	_
 39	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
 40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
-41	discaount	discaount	NOUN	S	_	39	obj	_	_
+41	discaount	discaount	NOUN	S	_	39	dislocated	_	_
 42-43	del	_	_	_	_	_	_	_	_
 42	di	di	ADP	E	_	45	case	_	_
 43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
@@ -2398,7 +2398,7 @@
 2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	gridato	gridare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	alquini	alquino	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
-5	parolace	parolacia	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+5	parolace	parolacia	NOUN	S	Gender=Fem|Number=Plur	3	dislocated	_	SpaceAfter=No
 6	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = 10-08_es-1
@@ -2860,7 +2860,7 @@
 29	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	borsa	borsa	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	_
 31	che	che	PRON	PR	PronType=Rel	34	obj	_	_
-32	l'	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	obj	_	SpaceAfter=No
+32	l'	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	dislocated	_	SpaceAfter=No
 33	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
 34	comprata	comprare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	acl:relcl	_	_
 35	in	in	ADP	E	_	36	case	_	_
@@ -2892,14 +2892,14 @@
 61	,	,	PUNCT	FF	_	65	punct	_	_
 62	ma	ma	CCONJ	CC	_	65	cc	_	_
 63	non	non	ADV	BN	PronType=Neg	65	advmod	_	_
-64	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	65	obj	_	_
+64	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	65	iobj	_	_
 65	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	59	conj	_	_
 66	niente	niente	PRON	PI	PronType=Ind	65	obj	_	_
 67-68	al	_	_	_	_	_	_	_	_
 67	a	a	ADP	E	_	70	case	_	_
 68	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
 69	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	70	det:poss	_	_
-70	marito	marito	NOUN	S	Gender=Masc|Number=Sing	65	obl	_	SpaceAfter=No
+70	marito	marito	NOUN	S	Gender=Masc|Number=Sing	65	dislocated	_	SpaceAfter=No
 71	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 12-03_es-1
@@ -5153,7 +5153,7 @@
 # text = Un otro ragazzo sta sull banco e lego un giornale e visto l'uomo brutto.
 # err = Un <FDL><i>otro</i><c>altro</c></FDL> ragazzo sta <IDGcascade><RNL><FDG><SEM><i>sull banco</i><c>sull' banco</c></SEM><i>sull' banco</i><c>sul banco</c></FDG><i>sul banco</i><c>sul panca</c></RNL><i>sul panca</i><c>sulla panca</c></IDGcascade> e <IVP><SB><i>lego</i><c>leggo</c></SB><i>leggo</i><c>legge</c></IVP> un giornale e <MX><i>_</i><c>ha</c></MX> visto l'uomo brutto.
 1	Un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	otro	otro	DET	DI	Gender=Masc|Number=Sing	3	det	_	_
+2	otro	otro	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
 3	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
 4	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5-6	sull	_	_	_	_	_	_	_	_
@@ -5504,7 +5504,7 @@
 17-18	sulle	_	_	_	_	_	_	_	_
 17	su	su	ADP	E	_	20	case	_	_
 18	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
-19	sui	suo	DET	AP	Gender=Masc|Number=Plur	20	det	_	_
+19	sui	suo	DET	AP	Gender=Masc|Number=Plur|PronType=Prs	20	det	_	_
 20	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
 21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
 22	grida	gridare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
@@ -7278,7 +7278,7 @@
 # err = Un sabato pomeriggio sono andato al parco vicino al mio appartamento e ho cominciato a leggere il giornale.
 1	Un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
-3	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+3	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
 4	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6-7	al	_	_	_	_	_	_	_	_
@@ -7944,7 +7944,7 @@
 5-6	nelle	_	_	_	_	_	_	_	_
 5	in	in	ADP	E	_	8	case	_	_
 6	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
-7	sui	suo	DET	AP	Gender=Masc|Number=Plur	8	amod	_	_
+7	sui	suo	DET	AP	Gender=Masc|Number=Plur|PronType=Prs	8	amod	_	_
 8	abitudini	abitudine	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
 9	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
 
