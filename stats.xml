@@ -61,10 +61,10 @@
     <feat name="PronType" value="Art" upos="DET">830</feat><!-- il, la, un, una, l', le, i, un', lo, gli -->
     <feat name="PronType" value="Dem" upos="DET,PRON">63</feat><!-- questo, quello, questa, quel, quella, queste, Quest', ciò, eso, questi -->
     <feat name="PronType" value="Exc" upos="DET">1</feat><!-- che -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">78</feat><!-- niente, altro, qualcosa, altra, molti, ogni, tutti, delle, nessuno, qualche -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">79</feat><!-- niente, altro, qualcosa, altra, molti, ogni, tutti, delle, nessuno, qualche -->
     <feat name="PronType" value="Int" upos="DET,PRON">14</feat><!-- che, cosa, chi, cose -->
     <feat name="PronType" value="Neg" upos="ADV">92</feat><!-- non, no, neanche -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">453</feat><!-- mi, si, suo, la, lui, lei, l', sua, me, mio -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">455</feat><!-- mi, si, suo, la, lui, lei, l', sua, me, mio -->
     <feat name="PronType" value="Rel" upos="PRON">83</feat><!-- che, dove, quale, cui, que, chi, qui -->
     <feat name="PronType" value="Tot" upos="DET">7</feat><!-- tutta, tutto, tutti -->
     <feat name="Tense" value="Fut" upos="VERB">4</feat><!-- Avrai, anderò, continuerò, farò -->
@@ -79,9 +79,9 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="40">
-    <dep name="acl">27</dep>
+    <dep name="acl">28</dep>
     <dep name="acl:relcl">83</dep>
-    <dep name="advcl">111</dep>
+    <dep name="advcl">110</dep>
     <dep name="advmod">377</dep>
     <dep name="amod">179</dep>
     <dep name="appos">14</dep>
@@ -98,20 +98,20 @@
     <dep name="det:poss">103</dep>
     <dep name="det:predet">7</dep>
     <dep name="discourse">13</dep>
-    <dep name="dislocated">3</dep>
+    <dep name="dislocated">8</dep>
     <dep name="expl">98</dep>
     <dep name="expl:impers">7</dep>
     <dep name="fixed">28</dep>
     <dep name="flat:name">3</dep>
     <dep name="goeswith">6</dep>
-    <dep name="iobj">59</dep>
+    <dep name="iobj">61</dep>
     <dep name="mark">240</dep>
-    <dep name="nmod">115</dep>
+    <dep name="nmod">117</dep>
     <dep name="nsubj">392</dep>
     <dep name="nsubj:pass">1</dep>
     <dep name="nummod">12</dep>
-    <dep name="obj">445</dep>
-    <dep name="obl">395</dep>
+    <dep name="obj">439</dep>
+    <dep name="obl">392</dep>
     <dep name="obl:agent">2</dep>
     <dep name="orphan">2</dep>
     <dep name="parataxis">89</dep>

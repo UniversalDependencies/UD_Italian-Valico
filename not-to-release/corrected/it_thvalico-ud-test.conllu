@@ -1323,7 +1323,7 @@
 # sent_id = 7-05_es-2
 # text = Mi ha sorpreso il modo di come l'ho colpito.
 # err = Mi ha sorpreso <IDGcascade><RN><i>la forma</i><c>la modo</c></RN><i>la modo</i><c>il modo</c></IDGcascade> <MT><i>_</i><c>di</c></MT> come l'ho colpito.
-1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
 2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	sorpreso	sorprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -1332,7 +1332,7 @@
 7	come	come	ADV	B	_	5	advmod	_	_
 8	l'	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
 9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
-10	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+10	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	SpaceAfter=No
 11	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = 7-06_es-2
@@ -1534,7 +1534,7 @@
 84	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	81	acl:relcl	_	SpaceAfter=No
 85	,	,	PUNCT	FF	_	90	punct	_	_
 86	ma	ma	CCONJ	CC	_	90	cc	_	_
-87	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	90	obj	_	_
+87	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	90	dislocated	_	_
 88	non	non	ADV	BN	PronType=Neg	90	advmod	_	_
 89	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	90	obj	_	_
 90	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	64	conj	_	_
@@ -7314,7 +7314,7 @@
 # err = Un sabato pomeriggio sono andato al parco vicino al mio appartamento e ho cominciato a leggere il giornale.
 1	Un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
-3	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+3	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
 4	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6-7	al	_	_	_	_	_	_	_	_
